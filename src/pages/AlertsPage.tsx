@@ -2,24 +2,19 @@ import { useState } from 'react'
 import { initialAlerts } from '../data/mockData'
 import type { AlertStatus } from '../data/mockData'
 
-
 const AlertsPage = () => {
   const [alerts, setAlerts] = useState(initialAlerts)
   const [filter, setFilter] = useState<'ALL' | AlertStatus>('ALL')
 
   const filteredAlerts =
-  filter === 'ALL'
-    ? alerts
-    : alerts.filter(
-        (alert) => alert.status === (filter as AlertStatus)
-      )
+    filter === 'ALL'
+      ? alerts
+      : alerts.filter((alert) => alert.status === (filter as AlertStatus))
 
   const updateStatus = (id: string, newStatus: AlertStatus) => {
     setAlerts((prevAlerts) =>
       prevAlerts.map((alert) =>
-        alert.id === id
-          ? { ...alert, status: newStatus }
-          : alert
+        alert.id === id ? { ...alert, status: newStatus } : alert
       )
     )
   }
@@ -39,9 +34,7 @@ const AlertsPage = () => {
             key={status}
             onClick={() => setFilter(status as 'ALL' | AlertStatus)}
             className={`rounded-full px-3 py-1 border ${
-              filter === status
-                ? 'bg-slate-900 text-white'
-                : 'border-slate-300'
+              filter === status ? 'bg-slate-900 text-white' : 'border-slate-300'
             }`}
           >
             {status.replace('_', ' ')}
@@ -57,23 +50,33 @@ const AlertsPage = () => {
             className="p-4 flex items-start justify-between gap-4"
           >
             <div>
-              <p className="text-sm font-medium">
-                {alert.title}
-              </p>
-              <p className="text-xs text-slate-500">
-                {alert.description}
-              </p>
-              <p className="text-xs text-slate-400 mt-1">
-                Status: {alert.status.replace('_', ' ')}
-              </p>
+              <p className="text-sm font-medium">{alert.title}</p>
+
+              <p className="text-xs text-slate-500">{alert.description}</p>
+
+              <div className="flex items-center gap-2 mt-1 text-xs">
+                <span className="text-slate-400">
+                  Status: {alert.status.replace('_', ' ')}
+                </span>
+
+                <span
+                  className={`rounded-full px-2 py-0.5 font-medium ${
+                    alert.severity === 'HIGH'
+                      ? 'bg-rose-100 text-rose-700'
+                      : alert.severity === 'MEDIUM'
+                      ? 'bg-amber-100 text-amber-700'
+                      : 'bg-emerald-100 text-emerald-700'
+                  }`}
+                >
+                  {alert.severity}
+                </span>
+              </div>
             </div>
 
             <div className="flex flex-col gap-2 text-xs">
               {alert.status !== 'IN_PROGRESS' && (
                 <button
-                  onClick={() =>
-                    updateStatus(alert.id, 'IN_PROGRESS')
-                  }
+                  onClick={() => updateStatus(alert.id, 'IN_PROGRESS')}
                   className="rounded px-2 py-1 border"
                 >
                   Mark In Progress
@@ -82,9 +85,7 @@ const AlertsPage = () => {
 
               {alert.status !== 'RESOLVED' && (
                 <button
-                  onClick={() =>
-                    updateStatus(alert.id, 'RESOLVED')
-                  }
+                  onClick={() => updateStatus(alert.id, 'RESOLVED')}
                   className="rounded px-2 py-1 bg-slate-900 text-white"
                 >
                   Resolve
@@ -95,9 +96,7 @@ const AlertsPage = () => {
         ))}
 
         {filteredAlerts.length === 0 && (
-          <p className="p-4 text-sm text-slate-500">
-            No alerts for this filter.
-          </p>
+          <p className="p-4 text-sm text-slate-500">No alerts for this filter.</p>
         )}
       </div>
     </div>
