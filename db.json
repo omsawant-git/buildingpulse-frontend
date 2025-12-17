@@ -1,0 +1,4928 @@
+{
+  "buildings": [
+    {
+      "id": "b1",
+      "name": "Innovation Center 1",
+      "address": "853 Pine St, Cambridge, MA",
+      "type": "Office"
+    },
+    {
+      "id": "b2",
+      "name": "Downtown HQ 2",
+      "address": "628 Maple St, Somerville, MA",
+      "type": "Office"
+    },
+    {
+      "id": "b3",
+      "name": "Riverside Deli 3",
+      "address": "748 Elm St, Cambridge, MA",
+      "type": "Retail"
+    },
+    {
+      "id": "b4",
+      "name": "Tech Plaza 4",
+      "address": "614 Main St, Somerville, MA",
+      "type": "Office"
+    },
+    {
+      "id": "b5",
+      "name": "North Hub Warehouse 5",
+      "address": "596 Main St, Worcester, MA",
+      "type": "Warehouse"
+    },
+    {
+      "id": "b6",
+      "name": "Main Street Cafe 6",
+      "address": "785 Oak St, Boston, MA",
+      "type": "Retail"
+    },
+    {
+      "id": "b7",
+      "name": "Riverside Deli 7",
+      "address": "492 Pine St, Worcester, MA",
+      "type": "Retail"
+    },
+    {
+      "id": "b8",
+      "name": "Riverside Office Park 8",
+      "address": "60 Oak St, Lowell, MA",
+      "type": "Office"
+    },
+    {
+      "id": "b9",
+      "name": "City Bakery 9",
+      "address": "217 Elm St, Quincy, MA",
+      "type": "Retail"
+    },
+    {
+      "id": "b10",
+      "name": "Logistics Center 10",
+      "address": "212 Elm St, Worcester, MA",
+      "type": "Warehouse"
+    },
+    {
+      "id": "b11",
+      "name": "City Bakery 11",
+      "address": "683 Pine St, Framingham, MA",
+      "type": "Retail"
+    },
+    {
+      "id": "b12",
+      "name": "Riverside Deli 12",
+      "address": "436 Maple St, Cambridge, MA",
+      "type": "Retail"
+    },
+    {
+      "id": "b13",
+      "name": "Main Street Cafe 13",
+      "address": "366 River St, Lowell, MA",
+      "type": "Retail"
+    },
+    {
+      "id": "b14",
+      "name": "North Hub Warehouse 14",
+      "address": "722 Maple St, Worcester, MA",
+      "type": "Warehouse"
+    },
+    {
+      "id": "b15",
+      "name": "North Hub Warehouse 15",
+      "address": "525 Pine St, Boston, MA",
+      "type": "Warehouse"
+    },
+    {
+      "id": "b16",
+      "name": "Logistics Center 16",
+      "address": "916 River St, Lowell, MA",
+      "type": "Warehouse"
+    },
+    {
+      "id": "b17",
+      "name": "Innovation Center 17",
+      "address": "329 Pine St, Worcester, MA",
+      "type": "Office"
+    },
+    {
+      "id": "b18",
+      "name": "Central Towers 18",
+      "address": "698 Maple St, Framingham, MA",
+      "type": "Office"
+    },
+    {
+      "id": "b19",
+      "name": "Innovation Center 19",
+      "address": "302 Main St, Quincy, MA",
+      "type": "Office"
+    },
+    {
+      "id": "b20",
+      "name": "City Bakery 20",
+      "address": "905 Main St, Somerville, MA",
+      "type": "Retail"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "a1",
+      "buildingId": "b17",
+      "title": "Demand peak event",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "MEDIUM",
+      "status": "RESOLVED",
+      "createdAt": "2025-12-11T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:31.676Z"
+    },
+    {
+      "id": "a2",
+      "buildingId": "b9",
+      "title": "Cooling running after hours",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "LOW",
+      "status": "RESOLVED",
+      "createdAt": "2025-12-10T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:32.674Z"
+    },
+    {
+      "id": "a3",
+      "buildingId": "b7",
+      "title": "Potential equipment fault",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "HIGH",
+      "status": "RESOLVED",
+      "createdAt": "2025-11-21T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:33.254Z"
+    },
+    {
+      "id": "a4",
+      "buildingId": "b15",
+      "title": "Heating short-cycling",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "HIGH",
+      "status": "RESOLVED",
+      "createdAt": "2025-11-25T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:33.831Z"
+    },
+    {
+      "id": "a5",
+      "buildingId": "b1",
+      "title": "Sensor gap detected",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "HIGH",
+      "status": "RESOLVED",
+      "createdAt": "2025-11-23T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:34.840Z"
+    },
+    {
+      "id": "a6",
+      "buildingId": "b5",
+      "title": "Cooling running after hours",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "MEDIUM",
+      "status": "RESOLVED",
+      "createdAt": "2025-11-15T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:35.302Z"
+    },
+    {
+      "id": "a7",
+      "buildingId": "b8",
+      "title": "Abnormal weekend spike",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "LOW",
+      "status": "RESOLVED",
+      "createdAt": "2025-12-01T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:36.284Z"
+    },
+    {
+      "id": "a8",
+      "buildingId": "b7",
+      "title": "Heating short-cycling",
+      "description": "HVAC appears active outside scheduled operating hours.",
+      "severity": "MEDIUM",
+      "status": "RESOLVED",
+      "createdAt": "2025-11-30T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:36.751Z"
+    },
+    {
+      "id": "a9",
+      "buildingId": "b6",
+      "title": "Cooling running after hours",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "MEDIUM",
+      "status": "RESOLVED",
+      "createdAt": "2025-12-05T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:37.312Z"
+    },
+    {
+      "id": "a10",
+      "buildingId": "b3",
+      "title": "Cooling running after hours",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "MEDIUM",
+      "status": "RESOLVED",
+      "createdAt": "2025-12-05T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:38.361Z"
+    },
+    {
+      "id": "a11",
+      "buildingId": "b15",
+      "title": "Cooling running after hours",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "MEDIUM",
+      "status": "RESOLVED",
+      "createdAt": "2025-11-17T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:38.809Z"
+    },
+    {
+      "id": "a12",
+      "buildingId": "b17",
+      "title": "Heating short-cycling",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "MEDIUM",
+      "status": "RESOLVED",
+      "createdAt": "2025-11-18T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:39.872Z"
+    },
+    {
+      "id": "a13",
+      "buildingId": "b8",
+      "title": "Potential equipment fault",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "LOW",
+      "status": "RESOLVED",
+      "createdAt": "2025-11-28T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:40.313Z"
+    },
+    {
+      "id": "a14",
+      "buildingId": "b2",
+      "title": "Demand peak event",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "LOW",
+      "status": "RESOLVED",
+      "createdAt": "2025-12-12T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:40.820Z"
+    },
+    {
+      "id": "a15",
+      "buildingId": "b17",
+      "title": "Sensor gap detected",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "LOW",
+      "status": "RESOLVED",
+      "createdAt": "2025-11-26T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:50:41.331Z"
+    },
+    {
+      "id": "a16",
+      "buildingId": "b14",
+      "title": "Sensor gap detected",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "HIGH",
+      "status": "RESOLVED",
+      "createdAt": "2025-12-04T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:28:18.491Z"
+    },
+    {
+      "id": "a17",
+      "buildingId": "b8",
+      "title": "Demand peak event",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-14T08:03:03.524Z",
+      "updatedAt": "2025-12-14T14:03:03.524Z"
+    },
+    {
+      "id": "a18",
+      "buildingId": "b10",
+      "title": "Cooling running after hours",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-23T08:03:03.524Z",
+      "updatedAt": "2025-11-23T18:03:03.524Z"
+    },
+    {
+      "id": "a19",
+      "buildingId": "b9",
+      "title": "Potential equipment fault",
+      "description": "HVAC appears active outside scheduled operating hours.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-27T08:03:03.524Z",
+      "updatedAt": "2025-11-29T12:03:03.524Z"
+    },
+    {
+      "id": "a20",
+      "buildingId": "b11",
+      "title": "Abnormal weekend spike",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-12-01T08:03:03.524Z",
+      "updatedAt": "2025-12-02T18:03:03.524Z"
+    },
+    {
+      "id": "a21",
+      "buildingId": "b3",
+      "title": "Heating short-cycling",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-29T08:03:03.524Z",
+      "updatedAt": "2025-11-30T03:03:03.524Z"
+    },
+    {
+      "id": "a22",
+      "buildingId": "b3",
+      "title": "Potential equipment fault",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-14T08:03:03.524Z",
+      "updatedAt": "2025-12-15T03:03:03.524Z"
+    },
+    {
+      "id": "a23",
+      "buildingId": "b2",
+      "title": "Cooling running after hours",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-20T08:03:03.524Z",
+      "updatedAt": "2025-11-20T12:03:03.524Z"
+    },
+    {
+      "id": "a24",
+      "buildingId": "b2",
+      "title": "Potential equipment fault",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-16T08:03:03.524Z",
+      "updatedAt": "2025-11-18T14:03:03.524Z"
+    },
+    {
+      "id": "a25",
+      "buildingId": "b11",
+      "title": "High overnight usage",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-12-09T08:03:03.524Z",
+      "updatedAt": "2025-12-09T13:03:03.524Z"
+    },
+    {
+      "id": "a26",
+      "buildingId": "b14",
+      "title": "Abnormal weekend spike",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-28T08:03:03.524Z",
+      "updatedAt": "2025-12-01T07:03:03.524Z"
+    },
+    {
+      "id": "a27",
+      "buildingId": "b17",
+      "title": "Sensor gap detected",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-28T08:03:03.524Z",
+      "updatedAt": "2025-12-03T03:03:03.524Z"
+    },
+    {
+      "id": "a28",
+      "buildingId": "b19",
+      "title": "Sensor gap detected",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-24T08:03:03.524Z",
+      "updatedAt": "2025-11-26T01:03:03.524Z"
+    },
+    {
+      "id": "a29",
+      "buildingId": "b11",
+      "title": "Baseline drift detected",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-24T08:03:03.524Z",
+      "updatedAt": "2025-11-26T00:03:03.524Z"
+    },
+    {
+      "id": "a30",
+      "buildingId": "b7",
+      "title": "Baseline drift detected",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-26T08:03:03.524Z",
+      "updatedAt": "2025-11-28T14:03:03.524Z"
+    },
+    {
+      "id": "a31",
+      "buildingId": "b9",
+      "title": "Heating short-cycling",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-04T08:03:03.524Z",
+      "updatedAt": "2025-12-05T22:03:03.524Z"
+    },
+    {
+      "id": "a32",
+      "buildingId": "b4",
+      "title": "Sensor gap detected",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-12-06T08:03:03.524Z",
+      "updatedAt": "2025-12-09T06:03:03.524Z"
+    },
+    {
+      "id": "a33",
+      "buildingId": "b15",
+      "title": "Baseline drift detected",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-23T08:03:03.524Z",
+      "updatedAt": "2025-11-23T21:03:03.524Z"
+    },
+    {
+      "id": "a34",
+      "buildingId": "b2",
+      "title": "Abnormal weekend spike",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-30T08:03:03.524Z",
+      "updatedAt": "2025-12-03T01:03:03.524Z"
+    },
+    {
+      "id": "a35",
+      "buildingId": "b15",
+      "title": "High overnight usage",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-29T08:03:03.524Z",
+      "updatedAt": "2025-11-29T11:03:03.524Z"
+    },
+    {
+      "id": "a36",
+      "buildingId": "b17",
+      "title": "High overnight usage",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-19T08:03:03.524Z",
+      "updatedAt": "2025-11-21T09:03:03.524Z"
+    },
+    {
+      "id": "a37",
+      "buildingId": "b6",
+      "title": "Sensor gap detected",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-19T08:03:03.524Z",
+      "updatedAt": "2025-11-23T20:03:03.524Z"
+    },
+    {
+      "id": "a38",
+      "buildingId": "b5",
+      "title": "Demand peak event",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-30T08:03:03.524Z",
+      "updatedAt": "2025-12-01T04:03:03.524Z"
+    },
+    {
+      "id": "a39",
+      "buildingId": "b12",
+      "title": "Baseline drift detected",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "HIGH",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-11T08:03:03.524Z",
+      "updatedAt": "2025-12-13T17:03:03.524Z"
+    },
+    {
+      "id": "a40",
+      "buildingId": "b1",
+      "title": "Baseline drift detected",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-12-04T08:03:03.524Z",
+      "updatedAt": "2025-12-05T01:03:03.524Z"
+    },
+    {
+      "id": "a41",
+      "buildingId": "b7",
+      "title": "Potential equipment fault",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-25T08:03:03.524Z",
+      "updatedAt": "2025-11-25T10:03:03.524Z"
+    },
+    {
+      "id": "a42",
+      "buildingId": "b16",
+      "title": "Potential equipment fault",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-29T08:03:03.524Z",
+      "updatedAt": "2025-11-29T18:03:03.524Z"
+    },
+    {
+      "id": "a43",
+      "buildingId": "b16",
+      "title": "Cooling running after hours",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-30T08:03:03.524Z",
+      "updatedAt": "2025-12-03T05:03:03.524Z"
+    },
+    {
+      "id": "a44",
+      "buildingId": "b5",
+      "title": "Demand peak event",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-21T08:03:03.524Z",
+      "updatedAt": "2025-11-22T01:03:03.524Z"
+    },
+    {
+      "id": "a45",
+      "buildingId": "b5",
+      "title": "High overnight usage",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-17T08:03:03.524Z",
+      "updatedAt": "2025-11-18T22:03:03.524Z"
+    },
+    {
+      "id": "a46",
+      "buildingId": "b6",
+      "title": "Potential equipment fault",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-13T08:03:03.524Z",
+      "updatedAt": "2025-12-14T07:03:03.524Z"
+    },
+    {
+      "id": "a47",
+      "buildingId": "b10",
+      "title": "Cooling running after hours",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2025-12-09T08:03:03.524Z",
+      "updatedAt": "2025-12-11T06:03:03.524Z"
+    },
+    {
+      "id": "a48",
+      "buildingId": "b3",
+      "title": "Heating short-cycling",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-15T08:03:03.524Z",
+      "updatedAt": "2025-11-15T23:03:03.524Z"
+    },
+    {
+      "id": "a49",
+      "buildingId": "b14",
+      "title": "Sensor gap detected",
+      "description": "HVAC appears active outside scheduled operating hours.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-10T08:03:03.524Z",
+      "updatedAt": "2025-12-13T07:03:03.524Z"
+    },
+    {
+      "id": "a50",
+      "buildingId": "b16",
+      "title": "Abnormal weekend spike",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-12-01T08:03:03.524Z",
+      "updatedAt": "2025-12-02T19:03:03.524Z"
+    },
+    {
+      "id": "a51",
+      "buildingId": "b8",
+      "title": "High overnight usage",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2025-12-02T08:03:03.524Z",
+      "updatedAt": "2025-12-03T02:03:03.524Z"
+    },
+    {
+      "id": "a52",
+      "buildingId": "b19",
+      "title": "High overnight usage",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-22T08:03:03.524Z",
+      "updatedAt": "2025-11-24T08:03:03.524Z"
+    },
+    {
+      "id": "a53",
+      "buildingId": "b10",
+      "title": "Heating short-cycling",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-29T08:03:03.524Z",
+      "updatedAt": "2025-11-30T18:03:03.524Z"
+    },
+    {
+      "id": "a54",
+      "buildingId": "b1",
+      "title": "Demand peak event",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-24T08:03:03.524Z",
+      "updatedAt": "2025-11-24T21:03:03.524Z"
+    },
+    {
+      "id": "a55",
+      "buildingId": "b13",
+      "title": "Heating short-cycling",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-17T08:03:03.524Z",
+      "updatedAt": "2025-11-18T17:03:03.524Z"
+    },
+    {
+      "id": "a56",
+      "buildingId": "b10",
+      "title": "Heating short-cycling",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-22T08:03:03.524Z",
+      "updatedAt": "2025-11-22T16:03:03.524Z"
+    },
+    {
+      "id": "a57",
+      "buildingId": "b10",
+      "title": "Heating short-cycling",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-12-14T08:03:03.524Z",
+      "updatedAt": "2025-12-17T02:03:03.524Z"
+    },
+    {
+      "id": "a58",
+      "buildingId": "b12",
+      "title": "Baseline drift detected",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-26T08:03:03.524Z",
+      "updatedAt": "2025-11-28T22:03:03.524Z"
+    },
+    {
+      "id": "a59",
+      "buildingId": "b17",
+      "title": "High overnight usage",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2025-11-16T08:03:03.524Z",
+      "updatedAt": "2025-11-18T19:03:03.524Z"
+    },
+    {
+      "id": "a60",
+      "buildingId": "b10",
+      "title": "Sensor gap detected",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-18T08:03:03.524Z",
+      "updatedAt": "2025-11-20T09:03:03.524Z"
+    },
+    {
+      "id": "a61",
+      "buildingId": "b19",
+      "title": "Sensor gap detected",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2025-11-25T08:03:03.524Z",
+      "updatedAt": "2025-11-26T02:03:03.524Z"
+    },
+    {
+      "id": "a62",
+      "buildingId": "b3",
+      "title": "Demand peak event",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-12-07T08:03:03.524Z",
+      "updatedAt": "2025-12-09T05:03:03.524Z"
+    },
+    {
+      "id": "a63",
+      "buildingId": "b16",
+      "title": "Baseline drift detected",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-22T08:03:03.524Z",
+      "updatedAt": "2025-11-22T09:03:03.524Z"
+    },
+    {
+      "id": "a64",
+      "buildingId": "b18",
+      "title": "Demand peak event",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-30T08:03:03.524Z",
+      "updatedAt": "2025-12-01T11:03:03.524Z"
+    },
+    {
+      "id": "a65",
+      "buildingId": "b11",
+      "title": "High overnight usage",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-15T08:03:03.524Z",
+      "updatedAt": "2025-11-15T20:03:03.524Z"
+    },
+    {
+      "id": "a66",
+      "buildingId": "b9",
+      "title": "Heating short-cycling",
+      "description": "HVAC appears active outside scheduled operating hours.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-27T08:03:03.524Z",
+      "updatedAt": "2025-11-29T20:03:03.524Z"
+    },
+    {
+      "id": "a67",
+      "buildingId": "b4",
+      "title": "Heating short-cycling",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-24T08:03:03.524Z",
+      "updatedAt": "2025-11-26T11:03:03.524Z"
+    },
+    {
+      "id": "a68",
+      "buildingId": "b16",
+      "title": "Baseline drift detected",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2025-12-14T08:03:03.524Z",
+      "updatedAt": "2025-12-14T12:03:03.524Z"
+    },
+    {
+      "id": "a69",
+      "buildingId": "b11",
+      "title": "High overnight usage",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-13T08:03:03.524Z",
+      "updatedAt": "2025-12-15T14:03:03.524Z"
+    },
+    {
+      "id": "a70",
+      "buildingId": "b7",
+      "title": "High overnight usage",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-09T08:03:03.524Z",
+      "updatedAt": "2025-12-11T14:03:03.524Z"
+    },
+    {
+      "id": "a71",
+      "buildingId": "b18",
+      "title": "Abnormal weekend spike",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "HIGH",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-27T08:03:03.524Z",
+      "updatedAt": "2025-11-28T14:03:03.524Z"
+    },
+    {
+      "id": "a72",
+      "buildingId": "b3",
+      "title": "Baseline drift detected",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-23T08:03:03.524Z",
+      "updatedAt": "2025-11-25T13:03:03.524Z"
+    },
+    {
+      "id": "a73",
+      "buildingId": "b12",
+      "title": "Demand peak event",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-04T08:03:03.524Z",
+      "updatedAt": "2025-12-08T21:03:03.524Z"
+    },
+    {
+      "id": "a74",
+      "buildingId": "b11",
+      "title": "Sensor gap detected",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-17T08:03:03.524Z",
+      "updatedAt": "2025-11-18T01:03:03.524Z"
+    },
+    {
+      "id": "a75",
+      "buildingId": "b20",
+      "title": "Baseline drift detected",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-14T08:03:03.524Z",
+      "updatedAt": "2025-12-16T07:03:03.524Z"
+    },
+    {
+      "id": "a76",
+      "buildingId": "b5",
+      "title": "Abnormal weekend spike",
+      "description": "HVAC appears active outside scheduled operating hours.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-16T08:03:03.524Z",
+      "updatedAt": "2025-11-17T06:03:03.524Z"
+    },
+    {
+      "id": "a77",
+      "buildingId": "b19",
+      "title": "Sensor gap detected",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2025-11-26T08:03:03.524Z",
+      "updatedAt": "2025-11-27T07:03:03.524Z"
+    },
+    {
+      "id": "a78",
+      "buildingId": "b12",
+      "title": "Baseline drift detected",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-18T08:03:03.524Z",
+      "updatedAt": "2025-11-20T08:03:03.524Z"
+    },
+    {
+      "id": "a79",
+      "buildingId": "b9",
+      "title": "Demand peak event",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-26T08:03:03.524Z",
+      "updatedAt": "2025-11-27T17:03:03.524Z"
+    },
+    {
+      "id": "a80",
+      "buildingId": "b4",
+      "title": "Sensor gap detected",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2025-12-14T08:03:03.524Z",
+      "updatedAt": "2025-12-16T11:03:03.524Z"
+    },
+    {
+      "id": "a81",
+      "buildingId": "b13",
+      "title": "Demand peak event",
+      "description": "HVAC appears active outside scheduled operating hours.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-12-06T08:03:03.524Z",
+      "updatedAt": "2025-12-06T11:03:03.524Z"
+    },
+    {
+      "id": "a82",
+      "buildingId": "b5",
+      "title": "Sensor gap detected",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-12-06T08:03:03.524Z",
+      "updatedAt": "2025-12-08T05:03:03.524Z"
+    },
+    {
+      "id": "a83",
+      "buildingId": "b17",
+      "title": "Baseline drift detected",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-12-12T08:03:03.524Z",
+      "updatedAt": "2025-12-12T22:03:03.524Z"
+    },
+    {
+      "id": "a84",
+      "buildingId": "b10",
+      "title": "Potential equipment fault",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-09T08:03:03.524Z",
+      "updatedAt": "2025-12-11T08:03:03.524Z"
+    },
+    {
+      "id": "a85",
+      "buildingId": "b8",
+      "title": "Cooling running after hours",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-10T08:03:03.524Z",
+      "updatedAt": "2025-12-13T01:03:03.524Z"
+    },
+    {
+      "id": "a86",
+      "buildingId": "b2",
+      "title": "Baseline drift detected",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-28T08:03:03.524Z",
+      "updatedAt": "2025-11-29T22:03:03.524Z"
+    },
+    {
+      "id": "a87",
+      "buildingId": "b11",
+      "title": "Cooling running after hours",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-17T08:03:03.524Z",
+      "updatedAt": "2025-11-20T00:03:03.524Z"
+    },
+    {
+      "id": "a88",
+      "buildingId": "b15",
+      "title": "Sensor gap detected",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-28T08:03:03.524Z",
+      "updatedAt": "2025-11-29T16:03:03.524Z"
+    },
+    {
+      "id": "a89",
+      "buildingId": "b18",
+      "title": "Abnormal weekend spike",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-18T08:03:03.524Z",
+      "updatedAt": "2025-11-19T01:03:03.524Z"
+    },
+    {
+      "id": "a90",
+      "buildingId": "b12",
+      "title": "Abnormal weekend spike",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "HIGH",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-02T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:28:31.851Z"
+    },
+    {
+      "id": "a91",
+      "buildingId": "b1",
+      "title": "Heating short-cycling",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-11T08:03:03.524Z",
+      "updatedAt": "2025-12-12T08:03:03.524Z"
+    },
+    {
+      "id": "a92",
+      "buildingId": "b20",
+      "title": "Demand peak event",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-23T08:03:03.524Z",
+      "updatedAt": "2025-11-24T16:03:03.524Z"
+    },
+    {
+      "id": "a93",
+      "buildingId": "b6",
+      "title": "High overnight usage",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "HIGH",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-11T08:03:03.524Z",
+      "updatedAt": "2025-12-14T08:28:32.792Z"
+    },
+    {
+      "id": "a94",
+      "buildingId": "b16",
+      "title": "Baseline drift detected",
+      "description": "HVAC appears active outside scheduled operating hours.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-27T08:03:03.524Z",
+      "updatedAt": "2025-11-27T12:03:03.524Z"
+    },
+    {
+      "id": "a95",
+      "buildingId": "b5",
+      "title": "High overnight usage",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2025-11-15T08:03:03.524Z",
+      "updatedAt": "2025-11-16T16:03:03.524Z"
+    },
+    {
+      "id": "a96",
+      "buildingId": "b8",
+      "title": "Baseline drift detected",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-30T08:03:03.524Z",
+      "updatedAt": "2025-12-01T13:03:03.524Z"
+    },
+    {
+      "id": "a97",
+      "buildingId": "b3",
+      "title": "Baseline drift detected",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-09T08:03:03.524Z",
+      "updatedAt": "2025-12-11T10:03:03.524Z"
+    },
+    {
+      "id": "a98",
+      "buildingId": "b5",
+      "title": "Cooling running after hours",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-23T08:03:03.524Z",
+      "updatedAt": "2025-11-24T21:03:03.524Z"
+    },
+    {
+      "id": "a99",
+      "buildingId": "b19",
+      "title": "High overnight usage",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-17T08:03:03.524Z",
+      "updatedAt": "2025-11-18T00:03:03.524Z"
+    },
+    {
+      "id": "a100",
+      "buildingId": "b13",
+      "title": "Potential equipment fault",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-12T08:03:03.524Z",
+      "updatedAt": "2025-12-14T06:03:03.524Z"
+    },
+    {
+      "id": "a101",
+      "buildingId": "b5",
+      "title": "Sensor gap detected",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-11-29T08:03:03.524Z",
+      "updatedAt": "2025-11-30T10:03:03.524Z"
+    },
+    {
+      "id": "a102",
+      "buildingId": "b12",
+      "title": "High overnight usage",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-08T08:03:03.524Z",
+      "updatedAt": "2025-12-08T10:03:03.524Z"
+    },
+    {
+      "id": "a103",
+      "buildingId": "b20",
+      "title": "Sensor gap detected",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2025-11-16T08:03:03.524Z",
+      "updatedAt": "2025-11-18T16:03:03.524Z"
+    },
+    {
+      "id": "a104",
+      "buildingId": "b13",
+      "title": "Heating short-cycling",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-28T08:03:03.524Z",
+      "updatedAt": "2025-11-30T03:03:03.524Z"
+    },
+    {
+      "id": "a105",
+      "buildingId": "b14",
+      "title": "Cooling running after hours",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "HIGH",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-26T08:03:03.524Z",
+      "updatedAt": "2025-11-27T14:03:03.524Z"
+    },
+    {
+      "id": "a106",
+      "buildingId": "b19",
+      "title": "Heating short-cycling",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-09T08:03:03.524Z",
+      "updatedAt": "2025-12-10T00:03:03.524Z"
+    },
+    {
+      "id": "a107",
+      "buildingId": "b9",
+      "title": "High overnight usage",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-04T08:03:03.524Z",
+      "updatedAt": "2025-12-05T15:03:03.524Z"
+    },
+    {
+      "id": "a108",
+      "buildingId": "b13",
+      "title": "Potential equipment fault",
+      "description": "HVAC appears active outside scheduled operating hours.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-18T08:03:03.524Z",
+      "updatedAt": "2025-11-20T22:03:03.524Z"
+    },
+    {
+      "id": "a109",
+      "buildingId": "b14",
+      "title": "Abnormal weekend spike",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-02T08:03:03.524Z",
+      "updatedAt": "2025-12-07T00:03:03.524Z"
+    },
+    {
+      "id": "a110",
+      "buildingId": "b2",
+      "title": "Abnormal weekend spike",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-30T08:03:03.524Z",
+      "updatedAt": "2025-12-02T23:03:03.524Z"
+    },
+    {
+      "id": "a111",
+      "buildingId": "b15",
+      "title": "Baseline drift detected",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-12-04T08:03:03.524Z",
+      "updatedAt": "2025-12-07T05:03:03.524Z"
+    },
+    {
+      "id": "a112",
+      "buildingId": "b6",
+      "title": "Cooling running after hours",
+      "description": "Usage deviates significantly from baseline for this time window.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-12-06T08:03:03.524Z",
+      "updatedAt": "2025-12-07T10:03:03.524Z"
+    },
+    {
+      "id": "a113",
+      "buildingId": "b4",
+      "title": "High overnight usage",
+      "description": "Short-duration peak suggests demand event or simultaneous loads.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-07T08:03:03.524Z",
+      "updatedAt": "2025-12-07T10:03:03.524Z"
+    },
+    {
+      "id": "a114",
+      "buildingId": "b10",
+      "title": "Sensor gap detected",
+      "description": "Pattern indicates possible fault; recommend inspection.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-04T08:03:03.524Z",
+      "updatedAt": "2025-12-06T06:03:03.524Z"
+    },
+    {
+      "id": "a115",
+      "buildingId": "b15",
+      "title": "Heating short-cycling",
+      "description": "Baseline has shifted; verify schedules and occupancy assumptions.",
+      "severity": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2025-11-25T08:03:03.524Z",
+      "updatedAt": "2025-11-26T19:03:03.524Z"
+    },
+    {
+      "id": "a116",
+      "buildingId": "b9",
+      "title": "Sensor gap detected",
+      "description": "HVAC appears active outside scheduled operating hours.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-02T08:03:03.524Z",
+      "updatedAt": "2025-12-03T05:03:03.524Z"
+    },
+    {
+      "id": "a117",
+      "buildingId": "b16",
+      "title": "Heating short-cycling",
+      "description": "Rapid cycling detected; may indicate control or equipment issue.",
+      "severity": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-28T08:03:03.524Z",
+      "updatedAt": "2025-12-02T22:03:03.524Z"
+    },
+    {
+      "id": "a118",
+      "buildingId": "b18",
+      "title": "High overnight usage",
+      "description": "HVAC appears active outside scheduled operating hours.",
+      "severity": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-12-07T08:03:03.524Z",
+      "updatedAt": "2025-12-07T12:03:03.524Z"
+    },
+    {
+      "id": "a119",
+      "buildingId": "b4",
+      "title": "Baseline drift detected",
+      "description": "Unusual load increase compared to historical weekend behavior.",
+      "severity": "LOW",
+      "status": "OPEN",
+      "createdAt": "2025-12-07T08:03:03.524Z",
+      "updatedAt": "2025-12-07T20:03:03.524Z"
+    },
+    {
+      "id": "a120",
+      "buildingId": "b18",
+      "title": "Sensor gap detected",
+      "description": "No readings received for an extended period from a meter device.",
+      "severity": "HIGH",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-11-20T08:03:03.524Z",
+      "updatedAt": "2025-11-21T03:03:03.524Z"
+    }
+  ],
+  "usage": [
+    {
+      "id": "u_b1_1",
+      "buildingId": "b1",
+      "date": "2025-11-15",
+      "kwh": 1088
+    },
+    {
+      "id": "u_b1_2",
+      "buildingId": "b1",
+      "date": "2025-11-16",
+      "kwh": 1096
+    },
+    {
+      "id": "u_b1_3",
+      "buildingId": "b1",
+      "date": "2025-11-17",
+      "kwh": 1312
+    },
+    {
+      "id": "u_b1_4",
+      "buildingId": "b1",
+      "date": "2025-11-18",
+      "kwh": 1207
+    },
+    {
+      "id": "u_b1_5",
+      "buildingId": "b1",
+      "date": "2025-11-19",
+      "kwh": 1145
+    },
+    {
+      "id": "u_b1_6",
+      "buildingId": "b1",
+      "date": "2025-11-20",
+      "kwh": 1240
+    },
+    {
+      "id": "u_b1_7",
+      "buildingId": "b1",
+      "date": "2025-11-21",
+      "kwh": 1245
+    },
+    {
+      "id": "u_b1_8",
+      "buildingId": "b1",
+      "date": "2025-11-22",
+      "kwh": 971
+    },
+    {
+      "id": "u_b1_9",
+      "buildingId": "b1",
+      "date": "2025-11-23",
+      "kwh": 1132
+    },
+    {
+      "id": "u_b1_10",
+      "buildingId": "b1",
+      "date": "2025-11-24",
+      "kwh": 1287
+    },
+    {
+      "id": "u_b1_11",
+      "buildingId": "b1",
+      "date": "2025-11-25",
+      "kwh": 1243
+    },
+    {
+      "id": "u_b1_12",
+      "buildingId": "b1",
+      "date": "2025-11-26",
+      "kwh": 1243
+    },
+    {
+      "id": "u_b1_13",
+      "buildingId": "b1",
+      "date": "2025-11-27",
+      "kwh": 1213
+    },
+    {
+      "id": "u_b1_14",
+      "buildingId": "b1",
+      "date": "2025-11-28",
+      "kwh": 1318
+    },
+    {
+      "id": "u_b1_15",
+      "buildingId": "b1",
+      "date": "2025-11-29",
+      "kwh": 1006
+    },
+    {
+      "id": "u_b1_16",
+      "buildingId": "b1",
+      "date": "2025-11-30",
+      "kwh": 1150
+    },
+    {
+      "id": "u_b1_17",
+      "buildingId": "b1",
+      "date": "2025-12-01",
+      "kwh": 1293
+    },
+    {
+      "id": "u_b1_18",
+      "buildingId": "b1",
+      "date": "2025-12-02",
+      "kwh": 1102
+    },
+    {
+      "id": "u_b1_19",
+      "buildingId": "b1",
+      "date": "2025-12-03",
+      "kwh": 1308
+    },
+    {
+      "id": "u_b1_20",
+      "buildingId": "b1",
+      "date": "2025-12-04",
+      "kwh": 1267
+    },
+    {
+      "id": "u_b1_21",
+      "buildingId": "b1",
+      "date": "2025-12-05",
+      "kwh": 1297
+    },
+    {
+      "id": "u_b1_22",
+      "buildingId": "b1",
+      "date": "2025-12-06",
+      "kwh": 963
+    },
+    {
+      "id": "u_b1_23",
+      "buildingId": "b1",
+      "date": "2025-12-07",
+      "kwh": 930
+    },
+    {
+      "id": "u_b1_24",
+      "buildingId": "b1",
+      "date": "2025-12-08",
+      "kwh": 1298
+    },
+    {
+      "id": "u_b1_25",
+      "buildingId": "b1",
+      "date": "2025-12-09",
+      "kwh": 1182
+    },
+    {
+      "id": "u_b1_26",
+      "buildingId": "b1",
+      "date": "2025-12-10",
+      "kwh": 1227
+    },
+    {
+      "id": "u_b1_27",
+      "buildingId": "b1",
+      "date": "2025-12-11",
+      "kwh": 1306
+    },
+    {
+      "id": "u_b1_28",
+      "buildingId": "b1",
+      "date": "2025-12-12",
+      "kwh": 1186
+    },
+    {
+      "id": "u_b1_29",
+      "buildingId": "b1",
+      "date": "2025-12-13",
+      "kwh": 995
+    },
+    {
+      "id": "u_b1_30",
+      "buildingId": "b1",
+      "date": "2025-12-14",
+      "kwh": 1039
+    },
+    {
+      "id": "u_b2_1",
+      "buildingId": "b2",
+      "date": "2025-11-15",
+      "kwh": 911
+    },
+    {
+      "id": "u_b2_2",
+      "buildingId": "b2",
+      "date": "2025-11-16",
+      "kwh": 975
+    },
+    {
+      "id": "u_b2_3",
+      "buildingId": "b2",
+      "date": "2025-11-17",
+      "kwh": 1332
+    },
+    {
+      "id": "u_b2_4",
+      "buildingId": "b2",
+      "date": "2025-11-18",
+      "kwh": 1330
+    },
+    {
+      "id": "u_b2_5",
+      "buildingId": "b2",
+      "date": "2025-11-19",
+      "kwh": 1228
+    },
+    {
+      "id": "u_b2_6",
+      "buildingId": "b2",
+      "date": "2025-11-20",
+      "kwh": 1218
+    },
+    {
+      "id": "u_b2_7",
+      "buildingId": "b2",
+      "date": "2025-11-21",
+      "kwh": 1131
+    },
+    {
+      "id": "u_b2_8",
+      "buildingId": "b2",
+      "date": "2025-11-22",
+      "kwh": 922
+    },
+    {
+      "id": "u_b2_9",
+      "buildingId": "b2",
+      "date": "2025-11-23",
+      "kwh": 1129
+    },
+    {
+      "id": "u_b2_10",
+      "buildingId": "b2",
+      "date": "2025-11-24",
+      "kwh": 1154
+    },
+    {
+      "id": "u_b2_11",
+      "buildingId": "b2",
+      "date": "2025-11-25",
+      "kwh": 1155
+    },
+    {
+      "id": "u_b2_12",
+      "buildingId": "b2",
+      "date": "2025-11-26",
+      "kwh": 1340
+    },
+    {
+      "id": "u_b2_13",
+      "buildingId": "b2",
+      "date": "2025-11-27",
+      "kwh": 1252
+    },
+    {
+      "id": "u_b2_14",
+      "buildingId": "b2",
+      "date": "2025-11-28",
+      "kwh": 1144
+    },
+    {
+      "id": "u_b2_15",
+      "buildingId": "b2",
+      "date": "2025-11-29",
+      "kwh": 979
+    },
+    {
+      "id": "u_b2_16",
+      "buildingId": "b2",
+      "date": "2025-11-30",
+      "kwh": 954
+    },
+    {
+      "id": "u_b2_17",
+      "buildingId": "b2",
+      "date": "2025-12-01",
+      "kwh": 1138
+    },
+    {
+      "id": "u_b2_18",
+      "buildingId": "b2",
+      "date": "2025-12-02",
+      "kwh": 1313
+    },
+    {
+      "id": "u_b2_19",
+      "buildingId": "b2",
+      "date": "2025-12-03",
+      "kwh": 1337
+    },
+    {
+      "id": "u_b2_20",
+      "buildingId": "b2",
+      "date": "2025-12-04",
+      "kwh": 1247
+    },
+    {
+      "id": "u_b2_21",
+      "buildingId": "b2",
+      "date": "2025-12-05",
+      "kwh": 1180
+    },
+    {
+      "id": "u_b2_22",
+      "buildingId": "b2",
+      "date": "2025-12-06",
+      "kwh": 1096
+    },
+    {
+      "id": "u_b2_23",
+      "buildingId": "b2",
+      "date": "2025-12-07",
+      "kwh": 945
+    },
+    {
+      "id": "u_b2_24",
+      "buildingId": "b2",
+      "date": "2025-12-08",
+      "kwh": 1230
+    },
+    {
+      "id": "u_b2_25",
+      "buildingId": "b2",
+      "date": "2025-12-09",
+      "kwh": 1200
+    },
+    {
+      "id": "u_b2_26",
+      "buildingId": "b2",
+      "date": "2025-12-10",
+      "kwh": 1234
+    },
+    {
+      "id": "u_b2_27",
+      "buildingId": "b2",
+      "date": "2025-12-11",
+      "kwh": 1172
+    },
+    {
+      "id": "u_b2_28",
+      "buildingId": "b2",
+      "date": "2025-12-12",
+      "kwh": 1207
+    },
+    {
+      "id": "u_b2_29",
+      "buildingId": "b2",
+      "date": "2025-12-13",
+      "kwh": 1024
+    },
+    {
+      "id": "u_b2_30",
+      "buildingId": "b2",
+      "date": "2025-12-14",
+      "kwh": 1027
+    },
+    {
+      "id": "u_b3_1",
+      "buildingId": "b3",
+      "date": "2025-11-15",
+      "kwh": 817
+    },
+    {
+      "id": "u_b3_2",
+      "buildingId": "b3",
+      "date": "2025-11-16",
+      "kwh": 701
+    },
+    {
+      "id": "u_b3_3",
+      "buildingId": "b3",
+      "date": "2025-11-17",
+      "kwh": 958
+    },
+    {
+      "id": "u_b3_4",
+      "buildingId": "b3",
+      "date": "2025-11-18",
+      "kwh": 991
+    },
+    {
+      "id": "u_b3_5",
+      "buildingId": "b3",
+      "date": "2025-11-19",
+      "kwh": 941
+    },
+    {
+      "id": "u_b3_6",
+      "buildingId": "b3",
+      "date": "2025-11-20",
+      "kwh": 815
+    },
+    {
+      "id": "u_b3_7",
+      "buildingId": "b3",
+      "date": "2025-11-21",
+      "kwh": 866
+    },
+    {
+      "id": "u_b3_8",
+      "buildingId": "b3",
+      "date": "2025-11-22",
+      "kwh": 690
+    },
+    {
+      "id": "u_b3_9",
+      "buildingId": "b3",
+      "date": "2025-11-23",
+      "kwh": 873
+    },
+    {
+      "id": "u_b3_10",
+      "buildingId": "b3",
+      "date": "2025-11-24",
+      "kwh": 806
+    },
+    {
+      "id": "u_b3_11",
+      "buildingId": "b3",
+      "date": "2025-11-25",
+      "kwh": 918
+    },
+    {
+      "id": "u_b3_12",
+      "buildingId": "b3",
+      "date": "2025-11-26",
+      "kwh": 977
+    },
+    {
+      "id": "u_b3_13",
+      "buildingId": "b3",
+      "date": "2025-11-27",
+      "kwh": 852
+    },
+    {
+      "id": "u_b3_14",
+      "buildingId": "b3",
+      "date": "2025-11-28",
+      "kwh": 787
+    },
+    {
+      "id": "u_b3_15",
+      "buildingId": "b3",
+      "date": "2025-11-29",
+      "kwh": 775
+    },
+    {
+      "id": "u_b3_16",
+      "buildingId": "b3",
+      "date": "2025-11-30",
+      "kwh": 663
+    },
+    {
+      "id": "u_b3_17",
+      "buildingId": "b3",
+      "date": "2025-12-01",
+      "kwh": 986
+    },
+    {
+      "id": "u_b3_18",
+      "buildingId": "b3",
+      "date": "2025-12-02",
+      "kwh": 904
+    },
+    {
+      "id": "u_b3_19",
+      "buildingId": "b3",
+      "date": "2025-12-03",
+      "kwh": 841
+    },
+    {
+      "id": "u_b3_20",
+      "buildingId": "b3",
+      "date": "2025-12-04",
+      "kwh": 941
+    },
+    {
+      "id": "u_b3_21",
+      "buildingId": "b3",
+      "date": "2025-12-05",
+      "kwh": 926
+    },
+    {
+      "id": "u_b3_22",
+      "buildingId": "b3",
+      "date": "2025-12-06",
+      "kwh": 782
+    },
+    {
+      "id": "u_b3_23",
+      "buildingId": "b3",
+      "date": "2025-12-07",
+      "kwh": 864
+    },
+    {
+      "id": "u_b3_24",
+      "buildingId": "b3",
+      "date": "2025-12-08",
+      "kwh": 1035
+    },
+    {
+      "id": "u_b3_25",
+      "buildingId": "b3",
+      "date": "2025-12-09",
+      "kwh": 824
+    },
+    {
+      "id": "u_b3_26",
+      "buildingId": "b3",
+      "date": "2025-12-10",
+      "kwh": 780
+    },
+    {
+      "id": "u_b3_27",
+      "buildingId": "b3",
+      "date": "2025-12-11",
+      "kwh": 995
+    },
+    {
+      "id": "u_b3_28",
+      "buildingId": "b3",
+      "date": "2025-12-12",
+      "kwh": 985
+    },
+    {
+      "id": "u_b3_29",
+      "buildingId": "b3",
+      "date": "2025-12-13",
+      "kwh": 781
+    },
+    {
+      "id": "u_b3_30",
+      "buildingId": "b3",
+      "date": "2025-12-14",
+      "kwh": 666
+    },
+    {
+      "id": "u_b4_1",
+      "buildingId": "b4",
+      "date": "2025-11-15",
+      "kwh": 971
+    },
+    {
+      "id": "u_b4_2",
+      "buildingId": "b4",
+      "date": "2025-11-16",
+      "kwh": 961
+    },
+    {
+      "id": "u_b4_3",
+      "buildingId": "b4",
+      "date": "2025-11-17",
+      "kwh": 1290
+    },
+    {
+      "id": "u_b4_4",
+      "buildingId": "b4",
+      "date": "2025-11-18",
+      "kwh": 1200
+    },
+    {
+      "id": "u_b4_5",
+      "buildingId": "b4",
+      "date": "2025-11-19",
+      "kwh": 1114
+    },
+    {
+      "id": "u_b4_6",
+      "buildingId": "b4",
+      "date": "2025-11-20",
+      "kwh": 1154
+    },
+    {
+      "id": "u_b4_7",
+      "buildingId": "b4",
+      "date": "2025-11-21",
+      "kwh": 1242
+    },
+    {
+      "id": "u_b4_8",
+      "buildingId": "b4",
+      "date": "2025-11-22",
+      "kwh": 1090
+    },
+    {
+      "id": "u_b4_9",
+      "buildingId": "b4",
+      "date": "2025-11-23",
+      "kwh": 1091
+    },
+    {
+      "id": "u_b4_10",
+      "buildingId": "b4",
+      "date": "2025-11-24",
+      "kwh": 1331
+    },
+    {
+      "id": "u_b4_11",
+      "buildingId": "b4",
+      "date": "2025-11-25",
+      "kwh": 1208
+    },
+    {
+      "id": "u_b4_12",
+      "buildingId": "b4",
+      "date": "2025-11-26",
+      "kwh": 1304
+    },
+    {
+      "id": "u_b4_13",
+      "buildingId": "b4",
+      "date": "2025-11-27",
+      "kwh": 1318
+    },
+    {
+      "id": "u_b4_14",
+      "buildingId": "b4",
+      "date": "2025-11-28",
+      "kwh": 1263
+    },
+    {
+      "id": "u_b4_15",
+      "buildingId": "b4",
+      "date": "2025-11-29",
+      "kwh": 1123
+    },
+    {
+      "id": "u_b4_16",
+      "buildingId": "b4",
+      "date": "2025-11-30",
+      "kwh": 994
+    },
+    {
+      "id": "u_b4_17",
+      "buildingId": "b4",
+      "date": "2025-12-01",
+      "kwh": 1130
+    },
+    {
+      "id": "u_b4_18",
+      "buildingId": "b4",
+      "date": "2025-12-02",
+      "kwh": 1095
+    },
+    {
+      "id": "u_b4_19",
+      "buildingId": "b4",
+      "date": "2025-12-03",
+      "kwh": 1212
+    },
+    {
+      "id": "u_b4_20",
+      "buildingId": "b4",
+      "date": "2025-12-04",
+      "kwh": 1242
+    },
+    {
+      "id": "u_b4_21",
+      "buildingId": "b4",
+      "date": "2025-12-05",
+      "kwh": 1152
+    },
+    {
+      "id": "u_b4_22",
+      "buildingId": "b4",
+      "date": "2025-12-06",
+      "kwh": 1152
+    },
+    {
+      "id": "u_b4_23",
+      "buildingId": "b4",
+      "date": "2025-12-07",
+      "kwh": 1152
+    },
+    {
+      "id": "u_b4_24",
+      "buildingId": "b4",
+      "date": "2025-12-08",
+      "kwh": 1268
+    },
+    {
+      "id": "u_b4_25",
+      "buildingId": "b4",
+      "date": "2025-12-09",
+      "kwh": 1335
+    },
+    {
+      "id": "u_b4_26",
+      "buildingId": "b4",
+      "date": "2025-12-10",
+      "kwh": 1143
+    },
+    {
+      "id": "u_b4_27",
+      "buildingId": "b4",
+      "date": "2025-12-11",
+      "kwh": 1287
+    },
+    {
+      "id": "u_b4_28",
+      "buildingId": "b4",
+      "date": "2025-12-12",
+      "kwh": 1098
+    },
+    {
+      "id": "u_b4_29",
+      "buildingId": "b4",
+      "date": "2025-12-13",
+      "kwh": 978
+    },
+    {
+      "id": "u_b4_30",
+      "buildingId": "b4",
+      "date": "2025-12-14",
+      "kwh": 1034
+    },
+    {
+      "id": "u_b5_1",
+      "buildingId": "b5",
+      "date": "2025-11-15",
+      "kwh": 640
+    },
+    {
+      "id": "u_b5_2",
+      "buildingId": "b5",
+      "date": "2025-11-16",
+      "kwh": 735
+    },
+    {
+      "id": "u_b5_3",
+      "buildingId": "b5",
+      "date": "2025-11-17",
+      "kwh": 778
+    },
+    {
+      "id": "u_b5_4",
+      "buildingId": "b5",
+      "date": "2025-11-18",
+      "kwh": 775
+    },
+    {
+      "id": "u_b5_5",
+      "buildingId": "b5",
+      "date": "2025-11-19",
+      "kwh": 791
+    },
+    {
+      "id": "u_b5_6",
+      "buildingId": "b5",
+      "date": "2025-11-20",
+      "kwh": 839
+    },
+    {
+      "id": "u_b5_7",
+      "buildingId": "b5",
+      "date": "2025-11-21",
+      "kwh": 789
+    },
+    {
+      "id": "u_b5_8",
+      "buildingId": "b5",
+      "date": "2025-11-22",
+      "kwh": 699
+    },
+    {
+      "id": "u_b5_9",
+      "buildingId": "b5",
+      "date": "2025-11-23",
+      "kwh": 631
+    },
+    {
+      "id": "u_b5_10",
+      "buildingId": "b5",
+      "date": "2025-11-24",
+      "kwh": 816
+    },
+    {
+      "id": "u_b5_11",
+      "buildingId": "b5",
+      "date": "2025-11-25",
+      "kwh": 677
+    },
+    {
+      "id": "u_b5_12",
+      "buildingId": "b5",
+      "date": "2025-11-26",
+      "kwh": 725
+    },
+    {
+      "id": "u_b5_13",
+      "buildingId": "b5",
+      "date": "2025-11-27",
+      "kwh": 590
+    },
+    {
+      "id": "u_b5_14",
+      "buildingId": "b5",
+      "date": "2025-11-28",
+      "kwh": 676
+    },
+    {
+      "id": "u_b5_15",
+      "buildingId": "b5",
+      "date": "2025-11-29",
+      "kwh": 527
+    },
+    {
+      "id": "u_b5_16",
+      "buildingId": "b5",
+      "date": "2025-11-30",
+      "kwh": 667
+    },
+    {
+      "id": "u_b5_17",
+      "buildingId": "b5",
+      "date": "2025-12-01",
+      "kwh": 634
+    },
+    {
+      "id": "u_b5_18",
+      "buildingId": "b5",
+      "date": "2025-12-02",
+      "kwh": 756
+    },
+    {
+      "id": "u_b5_19",
+      "buildingId": "b5",
+      "date": "2025-12-03",
+      "kwh": 637
+    },
+    {
+      "id": "u_b5_20",
+      "buildingId": "b5",
+      "date": "2025-12-04",
+      "kwh": 783
+    },
+    {
+      "id": "u_b5_21",
+      "buildingId": "b5",
+      "date": "2025-12-05",
+      "kwh": 657
+    },
+    {
+      "id": "u_b5_22",
+      "buildingId": "b5",
+      "date": "2025-12-06",
+      "kwh": 480
+    },
+    {
+      "id": "u_b5_23",
+      "buildingId": "b5",
+      "date": "2025-12-07",
+      "kwh": 513
+    },
+    {
+      "id": "u_b5_24",
+      "buildingId": "b5",
+      "date": "2025-12-08",
+      "kwh": 629
+    },
+    {
+      "id": "u_b5_25",
+      "buildingId": "b5",
+      "date": "2025-12-09",
+      "kwh": 826
+    },
+    {
+      "id": "u_b5_26",
+      "buildingId": "b5",
+      "date": "2025-12-10",
+      "kwh": 833
+    },
+    {
+      "id": "u_b5_27",
+      "buildingId": "b5",
+      "date": "2025-12-11",
+      "kwh": 669
+    },
+    {
+      "id": "u_b5_28",
+      "buildingId": "b5",
+      "date": "2025-12-12",
+      "kwh": 666
+    },
+    {
+      "id": "u_b5_29",
+      "buildingId": "b5",
+      "date": "2025-12-13",
+      "kwh": 709
+    },
+    {
+      "id": "u_b5_30",
+      "buildingId": "b5",
+      "date": "2025-12-14",
+      "kwh": 669
+    },
+    {
+      "id": "u_b6_1",
+      "buildingId": "b6",
+      "date": "2025-11-15",
+      "kwh": 703
+    },
+    {
+      "id": "u_b6_2",
+      "buildingId": "b6",
+      "date": "2025-11-16",
+      "kwh": 731
+    },
+    {
+      "id": "u_b6_3",
+      "buildingId": "b6",
+      "date": "2025-11-17",
+      "kwh": 824
+    },
+    {
+      "id": "u_b6_4",
+      "buildingId": "b6",
+      "date": "2025-11-18",
+      "kwh": 931
+    },
+    {
+      "id": "u_b6_5",
+      "buildingId": "b6",
+      "date": "2025-11-19",
+      "kwh": 1014
+    },
+    {
+      "id": "u_b6_6",
+      "buildingId": "b6",
+      "date": "2025-11-20",
+      "kwh": 963
+    },
+    {
+      "id": "u_b6_7",
+      "buildingId": "b6",
+      "date": "2025-11-21",
+      "kwh": 989
+    },
+    {
+      "id": "u_b6_8",
+      "buildingId": "b6",
+      "date": "2025-11-22",
+      "kwh": 863
+    },
+    {
+      "id": "u_b6_9",
+      "buildingId": "b6",
+      "date": "2025-11-23",
+      "kwh": 826
+    },
+    {
+      "id": "u_b6_10",
+      "buildingId": "b6",
+      "date": "2025-11-24",
+      "kwh": 967
+    },
+    {
+      "id": "u_b6_11",
+      "buildingId": "b6",
+      "date": "2025-11-25",
+      "kwh": 843
+    },
+    {
+      "id": "u_b6_12",
+      "buildingId": "b6",
+      "date": "2025-11-26",
+      "kwh": 847
+    },
+    {
+      "id": "u_b6_13",
+      "buildingId": "b6",
+      "date": "2025-11-27",
+      "kwh": 887
+    },
+    {
+      "id": "u_b6_14",
+      "buildingId": "b6",
+      "date": "2025-11-28",
+      "kwh": 839
+    },
+    {
+      "id": "u_b6_15",
+      "buildingId": "b6",
+      "date": "2025-11-29",
+      "kwh": 895
+    },
+    {
+      "id": "u_b6_16",
+      "buildingId": "b6",
+      "date": "2025-11-30",
+      "kwh": 686
+    },
+    {
+      "id": "u_b6_17",
+      "buildingId": "b6",
+      "date": "2025-12-01",
+      "kwh": 926
+    },
+    {
+      "id": "u_b6_18",
+      "buildingId": "b6",
+      "date": "2025-12-02",
+      "kwh": 994
+    },
+    {
+      "id": "u_b6_19",
+      "buildingId": "b6",
+      "date": "2025-12-03",
+      "kwh": 867
+    },
+    {
+      "id": "u_b6_20",
+      "buildingId": "b6",
+      "date": "2025-12-04",
+      "kwh": 1016
+    },
+    {
+      "id": "u_b6_21",
+      "buildingId": "b6",
+      "date": "2025-12-05",
+      "kwh": 1027
+    },
+    {
+      "id": "u_b6_22",
+      "buildingId": "b6",
+      "date": "2025-12-06",
+      "kwh": 831
+    },
+    {
+      "id": "u_b6_23",
+      "buildingId": "b6",
+      "date": "2025-12-07",
+      "kwh": 693
+    },
+    {
+      "id": "u_b6_24",
+      "buildingId": "b6",
+      "date": "2025-12-08",
+      "kwh": 831
+    },
+    {
+      "id": "u_b6_25",
+      "buildingId": "b6",
+      "date": "2025-12-09",
+      "kwh": 912
+    },
+    {
+      "id": "u_b6_26",
+      "buildingId": "b6",
+      "date": "2025-12-10",
+      "kwh": 1011
+    },
+    {
+      "id": "u_b6_27",
+      "buildingId": "b6",
+      "date": "2025-12-11",
+      "kwh": 884
+    },
+    {
+      "id": "u_b6_28",
+      "buildingId": "b6",
+      "date": "2025-12-12",
+      "kwh": 996
+    },
+    {
+      "id": "u_b6_29",
+      "buildingId": "b6",
+      "date": "2025-12-13",
+      "kwh": 661
+    },
+    {
+      "id": "u_b6_30",
+      "buildingId": "b6",
+      "date": "2025-12-14",
+      "kwh": 655
+    },
+    {
+      "id": "u_b7_1",
+      "buildingId": "b7",
+      "date": "2025-11-15",
+      "kwh": 805
+    },
+    {
+      "id": "u_b7_2",
+      "buildingId": "b7",
+      "date": "2025-11-16",
+      "kwh": 745
+    },
+    {
+      "id": "u_b7_3",
+      "buildingId": "b7",
+      "date": "2025-11-17",
+      "kwh": 813
+    },
+    {
+      "id": "u_b7_4",
+      "buildingId": "b7",
+      "date": "2025-11-18",
+      "kwh": 944
+    },
+    {
+      "id": "u_b7_5",
+      "buildingId": "b7",
+      "date": "2025-11-19",
+      "kwh": 1008
+    },
+    {
+      "id": "u_b7_6",
+      "buildingId": "b7",
+      "date": "2025-11-20",
+      "kwh": 832
+    },
+    {
+      "id": "u_b7_7",
+      "buildingId": "b7",
+      "date": "2025-11-21",
+      "kwh": 799
+    },
+    {
+      "id": "u_b7_8",
+      "buildingId": "b7",
+      "date": "2025-11-22",
+      "kwh": 653
+    },
+    {
+      "id": "u_b7_9",
+      "buildingId": "b7",
+      "date": "2025-11-23",
+      "kwh": 695
+    },
+    {
+      "id": "u_b7_10",
+      "buildingId": "b7",
+      "date": "2025-11-24",
+      "kwh": 843
+    },
+    {
+      "id": "u_b7_11",
+      "buildingId": "b7",
+      "date": "2025-11-25",
+      "kwh": 1024
+    },
+    {
+      "id": "u_b7_12",
+      "buildingId": "b7",
+      "date": "2025-11-26",
+      "kwh": 1014
+    },
+    {
+      "id": "u_b7_13",
+      "buildingId": "b7",
+      "date": "2025-11-27",
+      "kwh": 883
+    },
+    {
+      "id": "u_b7_14",
+      "buildingId": "b7",
+      "date": "2025-11-28",
+      "kwh": 909
+    },
+    {
+      "id": "u_b7_15",
+      "buildingId": "b7",
+      "date": "2025-11-29",
+      "kwh": 731
+    },
+    {
+      "id": "u_b7_16",
+      "buildingId": "b7",
+      "date": "2025-11-30",
+      "kwh": 776
+    },
+    {
+      "id": "u_b7_17",
+      "buildingId": "b7",
+      "date": "2025-12-01",
+      "kwh": 839
+    },
+    {
+      "id": "u_b7_18",
+      "buildingId": "b7",
+      "date": "2025-12-02",
+      "kwh": 848
+    },
+    {
+      "id": "u_b7_19",
+      "buildingId": "b7",
+      "date": "2025-12-03",
+      "kwh": 959
+    },
+    {
+      "id": "u_b7_20",
+      "buildingId": "b7",
+      "date": "2025-12-04",
+      "kwh": 903
+    },
+    {
+      "id": "u_b7_21",
+      "buildingId": "b7",
+      "date": "2025-12-05",
+      "kwh": 905
+    },
+    {
+      "id": "u_b7_22",
+      "buildingId": "b7",
+      "date": "2025-12-06",
+      "kwh": 899
+    },
+    {
+      "id": "u_b7_23",
+      "buildingId": "b7",
+      "date": "2025-12-07",
+      "kwh": 784
+    },
+    {
+      "id": "u_b7_24",
+      "buildingId": "b7",
+      "date": "2025-12-08",
+      "kwh": 796
+    },
+    {
+      "id": "u_b7_25",
+      "buildingId": "b7",
+      "date": "2025-12-09",
+      "kwh": 1013
+    },
+    {
+      "id": "u_b7_26",
+      "buildingId": "b7",
+      "date": "2025-12-10",
+      "kwh": 913
+    },
+    {
+      "id": "u_b7_27",
+      "buildingId": "b7",
+      "date": "2025-12-11",
+      "kwh": 950
+    },
+    {
+      "id": "u_b7_28",
+      "buildingId": "b7",
+      "date": "2025-12-12",
+      "kwh": 810
+    },
+    {
+      "id": "u_b7_29",
+      "buildingId": "b7",
+      "date": "2025-12-13",
+      "kwh": 683
+    },
+    {
+      "id": "u_b7_30",
+      "buildingId": "b7",
+      "date": "2025-12-14",
+      "kwh": 788
+    },
+    {
+      "id": "u_b8_1",
+      "buildingId": "b8",
+      "date": "2025-11-15",
+      "kwh": 1154
+    },
+    {
+      "id": "u_b8_2",
+      "buildingId": "b8",
+      "date": "2025-11-16",
+      "kwh": 985
+    },
+    {
+      "id": "u_b8_3",
+      "buildingId": "b8",
+      "date": "2025-11-17",
+      "kwh": 1140
+    },
+    {
+      "id": "u_b8_4",
+      "buildingId": "b8",
+      "date": "2025-11-18",
+      "kwh": 1137
+    },
+    {
+      "id": "u_b8_5",
+      "buildingId": "b8",
+      "date": "2025-11-19",
+      "kwh": 1205
+    },
+    {
+      "id": "u_b8_6",
+      "buildingId": "b8",
+      "date": "2025-11-20",
+      "kwh": 1185
+    },
+    {
+      "id": "u_b8_7",
+      "buildingId": "b8",
+      "date": "2025-11-21",
+      "kwh": 1168
+    },
+    {
+      "id": "u_b8_8",
+      "buildingId": "b8",
+      "date": "2025-11-22",
+      "kwh": 1036
+    },
+    {
+      "id": "u_b8_9",
+      "buildingId": "b8",
+      "date": "2025-11-23",
+      "kwh": 1016
+    },
+    {
+      "id": "u_b8_10",
+      "buildingId": "b8",
+      "date": "2025-11-24",
+      "kwh": 1098
+    },
+    {
+      "id": "u_b8_11",
+      "buildingId": "b8",
+      "date": "2025-11-25",
+      "kwh": 1209
+    },
+    {
+      "id": "u_b8_12",
+      "buildingId": "b8",
+      "date": "2025-11-26",
+      "kwh": 1273
+    },
+    {
+      "id": "u_b8_13",
+      "buildingId": "b8",
+      "date": "2025-11-27",
+      "kwh": 1114
+    },
+    {
+      "id": "u_b8_14",
+      "buildingId": "b8",
+      "date": "2025-11-28",
+      "kwh": 1086
+    },
+    {
+      "id": "u_b8_15",
+      "buildingId": "b8",
+      "date": "2025-11-29",
+      "kwh": 973
+    },
+    {
+      "id": "u_b8_16",
+      "buildingId": "b8",
+      "date": "2025-11-30",
+      "kwh": 958
+    },
+    {
+      "id": "u_b8_17",
+      "buildingId": "b8",
+      "date": "2025-12-01",
+      "kwh": 1193
+    },
+    {
+      "id": "u_b8_18",
+      "buildingId": "b8",
+      "date": "2025-12-02",
+      "kwh": 1320
+    },
+    {
+      "id": "u_b8_19",
+      "buildingId": "b8",
+      "date": "2025-12-03",
+      "kwh": 1309
+    },
+    {
+      "id": "u_b8_20",
+      "buildingId": "b8",
+      "date": "2025-12-04",
+      "kwh": 1244
+    },
+    {
+      "id": "u_b8_21",
+      "buildingId": "b8",
+      "date": "2025-12-05",
+      "kwh": 1188
+    },
+    {
+      "id": "u_b8_22",
+      "buildingId": "b8",
+      "date": "2025-12-06",
+      "kwh": 1065
+    },
+    {
+      "id": "u_b8_23",
+      "buildingId": "b8",
+      "date": "2025-12-07",
+      "kwh": 957
+    },
+    {
+      "id": "u_b8_24",
+      "buildingId": "b8",
+      "date": "2025-12-08",
+      "kwh": 1319
+    },
+    {
+      "id": "u_b8_25",
+      "buildingId": "b8",
+      "date": "2025-12-09",
+      "kwh": 1131
+    },
+    {
+      "id": "u_b8_26",
+      "buildingId": "b8",
+      "date": "2025-12-10",
+      "kwh": 1261
+    },
+    {
+      "id": "u_b8_27",
+      "buildingId": "b8",
+      "date": "2025-12-11",
+      "kwh": 1295
+    },
+    {
+      "id": "u_b8_28",
+      "buildingId": "b8",
+      "date": "2025-12-12",
+      "kwh": 1214
+    },
+    {
+      "id": "u_b8_29",
+      "buildingId": "b8",
+      "date": "2025-12-13",
+      "kwh": 1059
+    },
+    {
+      "id": "u_b8_30",
+      "buildingId": "b8",
+      "date": "2025-12-14",
+      "kwh": 989
+    },
+    {
+      "id": "u_b9_1",
+      "buildingId": "b9",
+      "date": "2025-11-15",
+      "kwh": 816
+    },
+    {
+      "id": "u_b9_2",
+      "buildingId": "b9",
+      "date": "2025-11-16",
+      "kwh": 794
+    },
+    {
+      "id": "u_b9_3",
+      "buildingId": "b9",
+      "date": "2025-11-17",
+      "kwh": 846
+    },
+    {
+      "id": "u_b9_4",
+      "buildingId": "b9",
+      "date": "2025-11-18",
+      "kwh": 907
+    },
+    {
+      "id": "u_b9_5",
+      "buildingId": "b9",
+      "date": "2025-11-19",
+      "kwh": 839
+    },
+    {
+      "id": "u_b9_6",
+      "buildingId": "b9",
+      "date": "2025-11-20",
+      "kwh": 876
+    },
+    {
+      "id": "u_b9_7",
+      "buildingId": "b9",
+      "date": "2025-11-21",
+      "kwh": 900
+    },
+    {
+      "id": "u_b9_8",
+      "buildingId": "b9",
+      "date": "2025-11-22",
+      "kwh": 680
+    },
+    {
+      "id": "u_b9_9",
+      "buildingId": "b9",
+      "date": "2025-11-23",
+      "kwh": 774
+    },
+    {
+      "id": "u_b9_10",
+      "buildingId": "b9",
+      "date": "2025-11-24",
+      "kwh": 868
+    },
+    {
+      "id": "u_b9_11",
+      "buildingId": "b9",
+      "date": "2025-11-25",
+      "kwh": 842
+    },
+    {
+      "id": "u_b9_12",
+      "buildingId": "b9",
+      "date": "2025-11-26",
+      "kwh": 875
+    },
+    {
+      "id": "u_b9_13",
+      "buildingId": "b9",
+      "date": "2025-11-27",
+      "kwh": 863
+    },
+    {
+      "id": "u_b9_14",
+      "buildingId": "b9",
+      "date": "2025-11-28",
+      "kwh": 843
+    },
+    {
+      "id": "u_b9_15",
+      "buildingId": "b9",
+      "date": "2025-11-29",
+      "kwh": 848
+    },
+    {
+      "id": "u_b9_16",
+      "buildingId": "b9",
+      "date": "2025-11-30",
+      "kwh": 656
+    },
+    {
+      "id": "u_b9_17",
+      "buildingId": "b9",
+      "date": "2025-12-01",
+      "kwh": 892
+    },
+    {
+      "id": "u_b9_18",
+      "buildingId": "b9",
+      "date": "2025-12-02",
+      "kwh": 995
+    },
+    {
+      "id": "u_b9_19",
+      "buildingId": "b9",
+      "date": "2025-12-03",
+      "kwh": 952
+    },
+    {
+      "id": "u_b9_20",
+      "buildingId": "b9",
+      "date": "2025-12-04",
+      "kwh": 899
+    },
+    {
+      "id": "u_b9_21",
+      "buildingId": "b9",
+      "date": "2025-12-05",
+      "kwh": 803
+    },
+    {
+      "id": "u_b9_22",
+      "buildingId": "b9",
+      "date": "2025-12-06",
+      "kwh": 791
+    },
+    {
+      "id": "u_b9_23",
+      "buildingId": "b9",
+      "date": "2025-12-07",
+      "kwh": 678
+    },
+    {
+      "id": "u_b9_24",
+      "buildingId": "b9",
+      "date": "2025-12-08",
+      "kwh": 828
+    },
+    {
+      "id": "u_b9_25",
+      "buildingId": "b9",
+      "date": "2025-12-09",
+      "kwh": 995
+    },
+    {
+      "id": "u_b9_26",
+      "buildingId": "b9",
+      "date": "2025-12-10",
+      "kwh": 838
+    },
+    {
+      "id": "u_b9_27",
+      "buildingId": "b9",
+      "date": "2025-12-11",
+      "kwh": 926
+    },
+    {
+      "id": "u_b9_28",
+      "buildingId": "b9",
+      "date": "2025-12-12",
+      "kwh": 886
+    },
+    {
+      "id": "u_b9_29",
+      "buildingId": "b9",
+      "date": "2025-12-13",
+      "kwh": 845
+    },
+    {
+      "id": "u_b9_30",
+      "buildingId": "b9",
+      "date": "2025-12-14",
+      "kwh": 794
+    },
+    {
+      "id": "u_b10_1",
+      "buildingId": "b10",
+      "date": "2025-11-15",
+      "kwh": 603
+    },
+    {
+      "id": "u_b10_2",
+      "buildingId": "b10",
+      "date": "2025-11-16",
+      "kwh": 690
+    },
+    {
+      "id": "u_b10_3",
+      "buildingId": "b10",
+      "date": "2025-11-17",
+      "kwh": 742
+    },
+    {
+      "id": "u_b10_4",
+      "buildingId": "b10",
+      "date": "2025-11-18",
+      "kwh": 681
+    },
+    {
+      "id": "u_b10_5",
+      "buildingId": "b10",
+      "date": "2025-11-19",
+      "kwh": 642
+    },
+    {
+      "id": "u_b10_6",
+      "buildingId": "b10",
+      "date": "2025-11-20",
+      "kwh": 759
+    },
+    {
+      "id": "u_b10_7",
+      "buildingId": "b10",
+      "date": "2025-11-21",
+      "kwh": 822
+    },
+    {
+      "id": "u_b10_8",
+      "buildingId": "b10",
+      "date": "2025-11-22",
+      "kwh": 718
+    },
+    {
+      "id": "u_b10_9",
+      "buildingId": "b10",
+      "date": "2025-11-23",
+      "kwh": 675
+    },
+    {
+      "id": "u_b10_10",
+      "buildingId": "b10",
+      "date": "2025-11-24",
+      "kwh": 789
+    },
+    {
+      "id": "u_b10_11",
+      "buildingId": "b10",
+      "date": "2025-11-25",
+      "kwh": 747
+    },
+    {
+      "id": "u_b10_12",
+      "buildingId": "b10",
+      "date": "2025-11-26",
+      "kwh": 628
+    },
+    {
+      "id": "u_b10_13",
+      "buildingId": "b10",
+      "date": "2025-11-27",
+      "kwh": 628
+    },
+    {
+      "id": "u_b10_14",
+      "buildingId": "b10",
+      "date": "2025-11-28",
+      "kwh": 611
+    },
+    {
+      "id": "u_b10_15",
+      "buildingId": "b10",
+      "date": "2025-11-29",
+      "kwh": 712
+    },
+    {
+      "id": "u_b10_16",
+      "buildingId": "b10",
+      "date": "2025-11-30",
+      "kwh": 661
+    },
+    {
+      "id": "u_b10_17",
+      "buildingId": "b10",
+      "date": "2025-12-01",
+      "kwh": 706
+    },
+    {
+      "id": "u_b10_18",
+      "buildingId": "b10",
+      "date": "2025-12-02",
+      "kwh": 723
+    },
+    {
+      "id": "u_b10_19",
+      "buildingId": "b10",
+      "date": "2025-12-03",
+      "kwh": 655
+    },
+    {
+      "id": "u_b10_20",
+      "buildingId": "b10",
+      "date": "2025-12-04",
+      "kwh": 737
+    },
+    {
+      "id": "u_b10_21",
+      "buildingId": "b10",
+      "date": "2025-12-05",
+      "kwh": 808
+    },
+    {
+      "id": "u_b10_22",
+      "buildingId": "b10",
+      "date": "2025-12-06",
+      "kwh": 557
+    },
+    {
+      "id": "u_b10_23",
+      "buildingId": "b10",
+      "date": "2025-12-07",
+      "kwh": 583
+    },
+    {
+      "id": "u_b10_24",
+      "buildingId": "b10",
+      "date": "2025-12-08",
+      "kwh": 839
+    },
+    {
+      "id": "u_b10_25",
+      "buildingId": "b10",
+      "date": "2025-12-09",
+      "kwh": 808
+    },
+    {
+      "id": "u_b10_26",
+      "buildingId": "b10",
+      "date": "2025-12-10",
+      "kwh": 771
+    },
+    {
+      "id": "u_b10_27",
+      "buildingId": "b10",
+      "date": "2025-12-11",
+      "kwh": 583
+    },
+    {
+      "id": "u_b10_28",
+      "buildingId": "b10",
+      "date": "2025-12-12",
+      "kwh": 717
+    },
+    {
+      "id": "u_b10_29",
+      "buildingId": "b10",
+      "date": "2025-12-13",
+      "kwh": 714
+    },
+    {
+      "id": "u_b10_30",
+      "buildingId": "b10",
+      "date": "2025-12-14",
+      "kwh": 536
+    },
+    {
+      "id": "u_b11_1",
+      "buildingId": "b11",
+      "date": "2025-11-15",
+      "kwh": 672
+    },
+    {
+      "id": "u_b11_2",
+      "buildingId": "b11",
+      "date": "2025-11-16",
+      "kwh": 659
+    },
+    {
+      "id": "u_b11_3",
+      "buildingId": "b11",
+      "date": "2025-11-17",
+      "kwh": 891
+    },
+    {
+      "id": "u_b11_4",
+      "buildingId": "b11",
+      "date": "2025-11-18",
+      "kwh": 853
+    },
+    {
+      "id": "u_b11_5",
+      "buildingId": "b11",
+      "date": "2025-11-19",
+      "kwh": 998
+    },
+    {
+      "id": "u_b11_6",
+      "buildingId": "b11",
+      "date": "2025-11-20",
+      "kwh": 1003
+    },
+    {
+      "id": "u_b11_7",
+      "buildingId": "b11",
+      "date": "2025-11-21",
+      "kwh": 937
+    },
+    {
+      "id": "u_b11_8",
+      "buildingId": "b11",
+      "date": "2025-11-22",
+      "kwh": 659
+    },
+    {
+      "id": "u_b11_9",
+      "buildingId": "b11",
+      "date": "2025-11-23",
+      "kwh": 888
+    },
+    {
+      "id": "u_b11_10",
+      "buildingId": "b11",
+      "date": "2025-11-24",
+      "kwh": 867
+    },
+    {
+      "id": "u_b11_11",
+      "buildingId": "b11",
+      "date": "2025-11-25",
+      "kwh": 939
+    },
+    {
+      "id": "u_b11_12",
+      "buildingId": "b11",
+      "date": "2025-11-26",
+      "kwh": 866
+    },
+    {
+      "id": "u_b11_13",
+      "buildingId": "b11",
+      "date": "2025-11-27",
+      "kwh": 905
+    },
+    {
+      "id": "u_b11_14",
+      "buildingId": "b11",
+      "date": "2025-11-28",
+      "kwh": 987
+    },
+    {
+      "id": "u_b11_15",
+      "buildingId": "b11",
+      "date": "2025-11-29",
+      "kwh": 835
+    },
+    {
+      "id": "u_b11_16",
+      "buildingId": "b11",
+      "date": "2025-11-30",
+      "kwh": 866
+    },
+    {
+      "id": "u_b11_17",
+      "buildingId": "b11",
+      "date": "2025-12-01",
+      "kwh": 862
+    },
+    {
+      "id": "u_b11_18",
+      "buildingId": "b11",
+      "date": "2025-12-02",
+      "kwh": 827
+    },
+    {
+      "id": "u_b11_19",
+      "buildingId": "b11",
+      "date": "2025-12-03",
+      "kwh": 806
+    },
+    {
+      "id": "u_b11_20",
+      "buildingId": "b11",
+      "date": "2025-12-04",
+      "kwh": 908
+    },
+    {
+      "id": "u_b11_21",
+      "buildingId": "b11",
+      "date": "2025-12-05",
+      "kwh": 836
+    },
+    {
+      "id": "u_b11_22",
+      "buildingId": "b11",
+      "date": "2025-12-06",
+      "kwh": 847
+    },
+    {
+      "id": "u_b11_23",
+      "buildingId": "b11",
+      "date": "2025-12-07",
+      "kwh": 789
+    },
+    {
+      "id": "u_b11_24",
+      "buildingId": "b11",
+      "date": "2025-12-08",
+      "kwh": 937
+    },
+    {
+      "id": "u_b11_25",
+      "buildingId": "b11",
+      "date": "2025-12-09",
+      "kwh": 1022
+    },
+    {
+      "id": "u_b11_26",
+      "buildingId": "b11",
+      "date": "2025-12-10",
+      "kwh": 945
+    },
+    {
+      "id": "u_b11_27",
+      "buildingId": "b11",
+      "date": "2025-12-11",
+      "kwh": 972
+    },
+    {
+      "id": "u_b11_28",
+      "buildingId": "b11",
+      "date": "2025-12-12",
+      "kwh": 854
+    },
+    {
+      "id": "u_b11_29",
+      "buildingId": "b11",
+      "date": "2025-12-13",
+      "kwh": 686
+    },
+    {
+      "id": "u_b11_30",
+      "buildingId": "b11",
+      "date": "2025-12-14",
+      "kwh": 659
+    },
+    {
+      "id": "u_b12_1",
+      "buildingId": "b12",
+      "date": "2025-11-15",
+      "kwh": 650
+    },
+    {
+      "id": "u_b12_2",
+      "buildingId": "b12",
+      "date": "2025-11-16",
+      "kwh": 846
+    },
+    {
+      "id": "u_b12_3",
+      "buildingId": "b12",
+      "date": "2025-11-17",
+      "kwh": 796
+    },
+    {
+      "id": "u_b12_4",
+      "buildingId": "b12",
+      "date": "2025-11-18",
+      "kwh": 791
+    },
+    {
+      "id": "u_b12_5",
+      "buildingId": "b12",
+      "date": "2025-11-19",
+      "kwh": 800
+    },
+    {
+      "id": "u_b12_6",
+      "buildingId": "b12",
+      "date": "2025-11-20",
+      "kwh": 855
+    },
+    {
+      "id": "u_b12_7",
+      "buildingId": "b12",
+      "date": "2025-11-21",
+      "kwh": 907
+    },
+    {
+      "id": "u_b12_8",
+      "buildingId": "b12",
+      "date": "2025-11-22",
+      "kwh": 762
+    },
+    {
+      "id": "u_b12_9",
+      "buildingId": "b12",
+      "date": "2025-11-23",
+      "kwh": 670
+    },
+    {
+      "id": "u_b12_10",
+      "buildingId": "b12",
+      "date": "2025-11-24",
+      "kwh": 972
+    },
+    {
+      "id": "u_b12_11",
+      "buildingId": "b12",
+      "date": "2025-11-25",
+      "kwh": 1031
+    },
+    {
+      "id": "u_b12_12",
+      "buildingId": "b12",
+      "date": "2025-11-26",
+      "kwh": 905
+    },
+    {
+      "id": "u_b12_13",
+      "buildingId": "b12",
+      "date": "2025-11-27",
+      "kwh": 903
+    },
+    {
+      "id": "u_b12_14",
+      "buildingId": "b12",
+      "date": "2025-11-28",
+      "kwh": 878
+    },
+    {
+      "id": "u_b12_15",
+      "buildingId": "b12",
+      "date": "2025-11-29",
+      "kwh": 667
+    },
+    {
+      "id": "u_b12_16",
+      "buildingId": "b12",
+      "date": "2025-11-30",
+      "kwh": 903
+    },
+    {
+      "id": "u_b12_17",
+      "buildingId": "b12",
+      "date": "2025-12-01",
+      "kwh": 930
+    },
+    {
+      "id": "u_b12_18",
+      "buildingId": "b12",
+      "date": "2025-12-02",
+      "kwh": 801
+    },
+    {
+      "id": "u_b12_19",
+      "buildingId": "b12",
+      "date": "2025-12-03",
+      "kwh": 822
+    },
+    {
+      "id": "u_b12_20",
+      "buildingId": "b12",
+      "date": "2025-12-04",
+      "kwh": 800
+    },
+    {
+      "id": "u_b12_21",
+      "buildingId": "b12",
+      "date": "2025-12-05",
+      "kwh": 789
+    },
+    {
+      "id": "u_b12_22",
+      "buildingId": "b12",
+      "date": "2025-12-06",
+      "kwh": 694
+    },
+    {
+      "id": "u_b12_23",
+      "buildingId": "b12",
+      "date": "2025-12-07",
+      "kwh": 835
+    },
+    {
+      "id": "u_b12_24",
+      "buildingId": "b12",
+      "date": "2025-12-08",
+      "kwh": 967
+    },
+    {
+      "id": "u_b12_25",
+      "buildingId": "b12",
+      "date": "2025-12-09",
+      "kwh": 879
+    },
+    {
+      "id": "u_b12_26",
+      "buildingId": "b12",
+      "date": "2025-12-10",
+      "kwh": 834
+    },
+    {
+      "id": "u_b12_27",
+      "buildingId": "b12",
+      "date": "2025-12-11",
+      "kwh": 885
+    },
+    {
+      "id": "u_b12_28",
+      "buildingId": "b12",
+      "date": "2025-12-12",
+      "kwh": 976
+    },
+    {
+      "id": "u_b12_29",
+      "buildingId": "b12",
+      "date": "2025-12-13",
+      "kwh": 675
+    },
+    {
+      "id": "u_b12_30",
+      "buildingId": "b12",
+      "date": "2025-12-14",
+      "kwh": 688
+    },
+    {
+      "id": "u_b13_1",
+      "buildingId": "b13",
+      "date": "2025-11-15",
+      "kwh": 760
+    },
+    {
+      "id": "u_b13_2",
+      "buildingId": "b13",
+      "date": "2025-11-16",
+      "kwh": 891
+    },
+    {
+      "id": "u_b13_3",
+      "buildingId": "b13",
+      "date": "2025-11-17",
+      "kwh": 885
+    },
+    {
+      "id": "u_b13_4",
+      "buildingId": "b13",
+      "date": "2025-11-18",
+      "kwh": 797
+    },
+    {
+      "id": "u_b13_5",
+      "buildingId": "b13",
+      "date": "2025-11-19",
+      "kwh": 806
+    },
+    {
+      "id": "u_b13_6",
+      "buildingId": "b13",
+      "date": "2025-11-20",
+      "kwh": 1032
+    },
+    {
+      "id": "u_b13_7",
+      "buildingId": "b13",
+      "date": "2025-11-21",
+      "kwh": 932
+    },
+    {
+      "id": "u_b13_8",
+      "buildingId": "b13",
+      "date": "2025-11-22",
+      "kwh": 905
+    },
+    {
+      "id": "u_b13_9",
+      "buildingId": "b13",
+      "date": "2025-11-23",
+      "kwh": 765
+    },
+    {
+      "id": "u_b13_10",
+      "buildingId": "b13",
+      "date": "2025-11-24",
+      "kwh": 889
+    },
+    {
+      "id": "u_b13_11",
+      "buildingId": "b13",
+      "date": "2025-11-25",
+      "kwh": 887
+    },
+    {
+      "id": "u_b13_12",
+      "buildingId": "b13",
+      "date": "2025-11-26",
+      "kwh": 806
+    },
+    {
+      "id": "u_b13_13",
+      "buildingId": "b13",
+      "date": "2025-11-27",
+      "kwh": 987
+    },
+    {
+      "id": "u_b13_14",
+      "buildingId": "b13",
+      "date": "2025-11-28",
+      "kwh": 954
+    },
+    {
+      "id": "u_b13_15",
+      "buildingId": "b13",
+      "date": "2025-11-29",
+      "kwh": 691
+    },
+    {
+      "id": "u_b13_16",
+      "buildingId": "b13",
+      "date": "2025-11-30",
+      "kwh": 883
+    },
+    {
+      "id": "u_b13_17",
+      "buildingId": "b13",
+      "date": "2025-12-01",
+      "kwh": 1024
+    },
+    {
+      "id": "u_b13_18",
+      "buildingId": "b13",
+      "date": "2025-12-02",
+      "kwh": 938
+    },
+    {
+      "id": "u_b13_19",
+      "buildingId": "b13",
+      "date": "2025-12-03",
+      "kwh": 892
+    },
+    {
+      "id": "u_b13_20",
+      "buildingId": "b13",
+      "date": "2025-12-04",
+      "kwh": 852
+    },
+    {
+      "id": "u_b13_21",
+      "buildingId": "b13",
+      "date": "2025-12-05",
+      "kwh": 962
+    },
+    {
+      "id": "u_b13_22",
+      "buildingId": "b13",
+      "date": "2025-12-06",
+      "kwh": 700
+    },
+    {
+      "id": "u_b13_23",
+      "buildingId": "b13",
+      "date": "2025-12-07",
+      "kwh": 693
+    },
+    {
+      "id": "u_b13_24",
+      "buildingId": "b13",
+      "date": "2025-12-08",
+      "kwh": 953
+    },
+    {
+      "id": "u_b13_25",
+      "buildingId": "b13",
+      "date": "2025-12-09",
+      "kwh": 1021
+    },
+    {
+      "id": "u_b13_26",
+      "buildingId": "b13",
+      "date": "2025-12-10",
+      "kwh": 879
+    },
+    {
+      "id": "u_b13_27",
+      "buildingId": "b13",
+      "date": "2025-12-11",
+      "kwh": 1025
+    },
+    {
+      "id": "u_b13_28",
+      "buildingId": "b13",
+      "date": "2025-12-12",
+      "kwh": 826
+    },
+    {
+      "id": "u_b13_29",
+      "buildingId": "b13",
+      "date": "2025-12-13",
+      "kwh": 881
+    },
+    {
+      "id": "u_b13_30",
+      "buildingId": "b13",
+      "date": "2025-12-14",
+      "kwh": 739
+    },
+    {
+      "id": "u_b14_1",
+      "buildingId": "b14",
+      "date": "2025-11-15",
+      "kwh": 579
+    },
+    {
+      "id": "u_b14_2",
+      "buildingId": "b14",
+      "date": "2025-11-16",
+      "kwh": 578
+    },
+    {
+      "id": "u_b14_3",
+      "buildingId": "b14",
+      "date": "2025-11-17",
+      "kwh": 674
+    },
+    {
+      "id": "u_b14_4",
+      "buildingId": "b14",
+      "date": "2025-11-18",
+      "kwh": 713
+    },
+    {
+      "id": "u_b14_5",
+      "buildingId": "b14",
+      "date": "2025-11-19",
+      "kwh": 834
+    },
+    {
+      "id": "u_b14_6",
+      "buildingId": "b14",
+      "date": "2025-11-20",
+      "kwh": 779
+    },
+    {
+      "id": "u_b14_7",
+      "buildingId": "b14",
+      "date": "2025-11-21",
+      "kwh": 698
+    },
+    {
+      "id": "u_b14_8",
+      "buildingId": "b14",
+      "date": "2025-11-22",
+      "kwh": 486
+    },
+    {
+      "id": "u_b14_9",
+      "buildingId": "b14",
+      "date": "2025-11-23",
+      "kwh": 514
+    },
+    {
+      "id": "u_b14_10",
+      "buildingId": "b14",
+      "date": "2025-11-24",
+      "kwh": 604
+    },
+    {
+      "id": "u_b14_11",
+      "buildingId": "b14",
+      "date": "2025-11-25",
+      "kwh": 788
+    },
+    {
+      "id": "u_b14_12",
+      "buildingId": "b14",
+      "date": "2025-11-26",
+      "kwh": 714
+    },
+    {
+      "id": "u_b14_13",
+      "buildingId": "b14",
+      "date": "2025-11-27",
+      "kwh": 587
+    },
+    {
+      "id": "u_b14_14",
+      "buildingId": "b14",
+      "date": "2025-11-28",
+      "kwh": 779
+    },
+    {
+      "id": "u_b14_15",
+      "buildingId": "b14",
+      "date": "2025-11-29",
+      "kwh": 669
+    },
+    {
+      "id": "u_b14_16",
+      "buildingId": "b14",
+      "date": "2025-11-30",
+      "kwh": 667
+    },
+    {
+      "id": "u_b14_17",
+      "buildingId": "b14",
+      "date": "2025-12-01",
+      "kwh": 702
+    },
+    {
+      "id": "u_b14_18",
+      "buildingId": "b14",
+      "date": "2025-12-02",
+      "kwh": 750
+    },
+    {
+      "id": "u_b14_19",
+      "buildingId": "b14",
+      "date": "2025-12-03",
+      "kwh": 770
+    },
+    {
+      "id": "u_b14_20",
+      "buildingId": "b14",
+      "date": "2025-12-04",
+      "kwh": 809
+    },
+    {
+      "id": "u_b14_21",
+      "buildingId": "b14",
+      "date": "2025-12-05",
+      "kwh": 625
+    },
+    {
+      "id": "u_b14_22",
+      "buildingId": "b14",
+      "date": "2025-12-06",
+      "kwh": 683
+    },
+    {
+      "id": "u_b14_23",
+      "buildingId": "b14",
+      "date": "2025-12-07",
+      "kwh": 587
+    },
+    {
+      "id": "u_b14_24",
+      "buildingId": "b14",
+      "date": "2025-12-08",
+      "kwh": 713
+    },
+    {
+      "id": "u_b14_25",
+      "buildingId": "b14",
+      "date": "2025-12-09",
+      "kwh": 832
+    },
+    {
+      "id": "u_b14_26",
+      "buildingId": "b14",
+      "date": "2025-12-10",
+      "kwh": 784
+    },
+    {
+      "id": "u_b14_27",
+      "buildingId": "b14",
+      "date": "2025-12-11",
+      "kwh": 726
+    },
+    {
+      "id": "u_b14_28",
+      "buildingId": "b14",
+      "date": "2025-12-12",
+      "kwh": 629
+    },
+    {
+      "id": "u_b14_29",
+      "buildingId": "b14",
+      "date": "2025-12-13",
+      "kwh": 592
+    },
+    {
+      "id": "u_b14_30",
+      "buildingId": "b14",
+      "date": "2025-12-14",
+      "kwh": 516
+    },
+    {
+      "id": "u_b15_1",
+      "buildingId": "b15",
+      "date": "2025-11-15",
+      "kwh": 705
+    },
+    {
+      "id": "u_b15_2",
+      "buildingId": "b15",
+      "date": "2025-11-16",
+      "kwh": 724
+    },
+    {
+      "id": "u_b15_3",
+      "buildingId": "b15",
+      "date": "2025-11-17",
+      "kwh": 728
+    },
+    {
+      "id": "u_b15_4",
+      "buildingId": "b15",
+      "date": "2025-11-18",
+      "kwh": 829
+    },
+    {
+      "id": "u_b15_5",
+      "buildingId": "b15",
+      "date": "2025-11-19",
+      "kwh": 650
+    },
+    {
+      "id": "u_b15_6",
+      "buildingId": "b15",
+      "date": "2025-11-20",
+      "kwh": 625
+    },
+    {
+      "id": "u_b15_7",
+      "buildingId": "b15",
+      "date": "2025-11-21",
+      "kwh": 768
+    },
+    {
+      "id": "u_b15_8",
+      "buildingId": "b15",
+      "date": "2025-11-22",
+      "kwh": 621
+    },
+    {
+      "id": "u_b15_9",
+      "buildingId": "b15",
+      "date": "2025-11-23",
+      "kwh": 500
+    },
+    {
+      "id": "u_b15_10",
+      "buildingId": "b15",
+      "date": "2025-11-24",
+      "kwh": 621
+    },
+    {
+      "id": "u_b15_11",
+      "buildingId": "b15",
+      "date": "2025-11-25",
+      "kwh": 720
+    },
+    {
+      "id": "u_b15_12",
+      "buildingId": "b15",
+      "date": "2025-11-26",
+      "kwh": 618
+    },
+    {
+      "id": "u_b15_13",
+      "buildingId": "b15",
+      "date": "2025-11-27",
+      "kwh": 839
+    },
+    {
+      "id": "u_b15_14",
+      "buildingId": "b15",
+      "date": "2025-11-28",
+      "kwh": 831
+    },
+    {
+      "id": "u_b15_15",
+      "buildingId": "b15",
+      "date": "2025-11-29",
+      "kwh": 614
+    },
+    {
+      "id": "u_b15_16",
+      "buildingId": "b15",
+      "date": "2025-11-30",
+      "kwh": 553
+    },
+    {
+      "id": "u_b15_17",
+      "buildingId": "b15",
+      "date": "2025-12-01",
+      "kwh": 701
+    },
+    {
+      "id": "u_b15_18",
+      "buildingId": "b15",
+      "date": "2025-12-02",
+      "kwh": 697
+    },
+    {
+      "id": "u_b15_19",
+      "buildingId": "b15",
+      "date": "2025-12-03",
+      "kwh": 645
+    },
+    {
+      "id": "u_b15_20",
+      "buildingId": "b15",
+      "date": "2025-12-04",
+      "kwh": 653
+    },
+    {
+      "id": "u_b15_21",
+      "buildingId": "b15",
+      "date": "2025-12-05",
+      "kwh": 657
+    },
+    {
+      "id": "u_b15_22",
+      "buildingId": "b15",
+      "date": "2025-12-06",
+      "kwh": 502
+    },
+    {
+      "id": "u_b15_23",
+      "buildingId": "b15",
+      "date": "2025-12-07",
+      "kwh": 733
+    },
+    {
+      "id": "u_b15_24",
+      "buildingId": "b15",
+      "date": "2025-12-08",
+      "kwh": 615
+    },
+    {
+      "id": "u_b15_25",
+      "buildingId": "b15",
+      "date": "2025-12-09",
+      "kwh": 702
+    },
+    {
+      "id": "u_b15_26",
+      "buildingId": "b15",
+      "date": "2025-12-10",
+      "kwh": 598
+    },
+    {
+      "id": "u_b15_27",
+      "buildingId": "b15",
+      "date": "2025-12-11",
+      "kwh": 623
+    },
+    {
+      "id": "u_b15_28",
+      "buildingId": "b15",
+      "date": "2025-12-12",
+      "kwh": 821
+    },
+    {
+      "id": "u_b15_29",
+      "buildingId": "b15",
+      "date": "2025-12-13",
+      "kwh": 586
+    },
+    {
+      "id": "u_b15_30",
+      "buildingId": "b15",
+      "date": "2025-12-14",
+      "kwh": 615
+    },
+    {
+      "id": "u_b16_1",
+      "buildingId": "b16",
+      "date": "2025-11-15",
+      "kwh": 647
+    },
+    {
+      "id": "u_b16_2",
+      "buildingId": "b16",
+      "date": "2025-11-16",
+      "kwh": 719
+    },
+    {
+      "id": "u_b16_3",
+      "buildingId": "b16",
+      "date": "2025-11-17",
+      "kwh": 685
+    },
+    {
+      "id": "u_b16_4",
+      "buildingId": "b16",
+      "date": "2025-11-18",
+      "kwh": 774
+    },
+    {
+      "id": "u_b16_5",
+      "buildingId": "b16",
+      "date": "2025-11-19",
+      "kwh": 723
+    },
+    {
+      "id": "u_b16_6",
+      "buildingId": "b16",
+      "date": "2025-11-20",
+      "kwh": 695
+    },
+    {
+      "id": "u_b16_7",
+      "buildingId": "b16",
+      "date": "2025-11-21",
+      "kwh": 592
+    },
+    {
+      "id": "u_b16_8",
+      "buildingId": "b16",
+      "date": "2025-11-22",
+      "kwh": 552
+    },
+    {
+      "id": "u_b16_9",
+      "buildingId": "b16",
+      "date": "2025-11-23",
+      "kwh": 505
+    },
+    {
+      "id": "u_b16_10",
+      "buildingId": "b16",
+      "date": "2025-11-24",
+      "kwh": 820
+    },
+    {
+      "id": "u_b16_11",
+      "buildingId": "b16",
+      "date": "2025-11-25",
+      "kwh": 783
+    },
+    {
+      "id": "u_b16_12",
+      "buildingId": "b16",
+      "date": "2025-11-26",
+      "kwh": 778
+    },
+    {
+      "id": "u_b16_13",
+      "buildingId": "b16",
+      "date": "2025-11-27",
+      "kwh": 712
+    },
+    {
+      "id": "u_b16_14",
+      "buildingId": "b16",
+      "date": "2025-11-28",
+      "kwh": 649
+    },
+    {
+      "id": "u_b16_15",
+      "buildingId": "b16",
+      "date": "2025-11-29",
+      "kwh": 554
+    },
+    {
+      "id": "u_b16_16",
+      "buildingId": "b16",
+      "date": "2025-11-30",
+      "kwh": 624
+    },
+    {
+      "id": "u_b16_17",
+      "buildingId": "b16",
+      "date": "2025-12-01",
+      "kwh": 775
+    },
+    {
+      "id": "u_b16_18",
+      "buildingId": "b16",
+      "date": "2025-12-02",
+      "kwh": 628
+    },
+    {
+      "id": "u_b16_19",
+      "buildingId": "b16",
+      "date": "2025-12-03",
+      "kwh": 826
+    },
+    {
+      "id": "u_b16_20",
+      "buildingId": "b16",
+      "date": "2025-12-04",
+      "kwh": 823
+    },
+    {
+      "id": "u_b16_21",
+      "buildingId": "b16",
+      "date": "2025-12-05",
+      "kwh": 592
+    },
+    {
+      "id": "u_b16_22",
+      "buildingId": "b16",
+      "date": "2025-12-06",
+      "kwh": 564
+    },
+    {
+      "id": "u_b16_23",
+      "buildingId": "b16",
+      "date": "2025-12-07",
+      "kwh": 703
+    },
+    {
+      "id": "u_b16_24",
+      "buildingId": "b16",
+      "date": "2025-12-08",
+      "kwh": 721
+    },
+    {
+      "id": "u_b16_25",
+      "buildingId": "b16",
+      "date": "2025-12-09",
+      "kwh": 639
+    },
+    {
+      "id": "u_b16_26",
+      "buildingId": "b16",
+      "date": "2025-12-10",
+      "kwh": 588
+    },
+    {
+      "id": "u_b16_27",
+      "buildingId": "b16",
+      "date": "2025-12-11",
+      "kwh": 791
+    },
+    {
+      "id": "u_b16_28",
+      "buildingId": "b16",
+      "date": "2025-12-12",
+      "kwh": 829
+    },
+    {
+      "id": "u_b16_29",
+      "buildingId": "b16",
+      "date": "2025-12-13",
+      "kwh": 673
+    },
+    {
+      "id": "u_b16_30",
+      "buildingId": "b16",
+      "date": "2025-12-14",
+      "kwh": 523
+    },
+    {
+      "id": "u_b17_1",
+      "buildingId": "b17",
+      "date": "2025-11-15",
+      "kwh": 979
+    },
+    {
+      "id": "u_b17_2",
+      "buildingId": "b17",
+      "date": "2025-11-16",
+      "kwh": 983
+    },
+    {
+      "id": "u_b17_3",
+      "buildingId": "b17",
+      "date": "2025-11-17",
+      "kwh": 1134
+    },
+    {
+      "id": "u_b17_4",
+      "buildingId": "b17",
+      "date": "2025-11-18",
+      "kwh": 1149
+    },
+    {
+      "id": "u_b17_5",
+      "buildingId": "b17",
+      "date": "2025-11-19",
+      "kwh": 1339
+    },
+    {
+      "id": "u_b17_6",
+      "buildingId": "b17",
+      "date": "2025-11-20",
+      "kwh": 1104
+    },
+    {
+      "id": "u_b17_7",
+      "buildingId": "b17",
+      "date": "2025-11-21",
+      "kwh": 1175
+    },
+    {
+      "id": "u_b17_8",
+      "buildingId": "b17",
+      "date": "2025-11-22",
+      "kwh": 933
+    },
+    {
+      "id": "u_b17_9",
+      "buildingId": "b17",
+      "date": "2025-11-23",
+      "kwh": 948
+    },
+    {
+      "id": "u_b17_10",
+      "buildingId": "b17",
+      "date": "2025-11-24",
+      "kwh": 1131
+    },
+    {
+      "id": "u_b17_11",
+      "buildingId": "b17",
+      "date": "2025-11-25",
+      "kwh": 1142
+    },
+    {
+      "id": "u_b17_12",
+      "buildingId": "b17",
+      "date": "2025-11-26",
+      "kwh": 1332
+    },
+    {
+      "id": "u_b17_13",
+      "buildingId": "b17",
+      "date": "2025-11-27",
+      "kwh": 1147
+    },
+    {
+      "id": "u_b17_14",
+      "buildingId": "b17",
+      "date": "2025-11-28",
+      "kwh": 1163
+    },
+    {
+      "id": "u_b17_15",
+      "buildingId": "b17",
+      "date": "2025-11-29",
+      "kwh": 1089
+    },
+    {
+      "id": "u_b17_16",
+      "buildingId": "b17",
+      "date": "2025-11-30",
+      "kwh": 954
+    },
+    {
+      "id": "u_b17_17",
+      "buildingId": "b17",
+      "date": "2025-12-01",
+      "kwh": 1312
+    },
+    {
+      "id": "u_b17_18",
+      "buildingId": "b17",
+      "date": "2025-12-02",
+      "kwh": 1217
+    },
+    {
+      "id": "u_b17_19",
+      "buildingId": "b17",
+      "date": "2025-12-03",
+      "kwh": 1261
+    },
+    {
+      "id": "u_b17_20",
+      "buildingId": "b17",
+      "date": "2025-12-04",
+      "kwh": 1114
+    },
+    {
+      "id": "u_b17_21",
+      "buildingId": "b17",
+      "date": "2025-12-05",
+      "kwh": 1312
+    },
+    {
+      "id": "u_b17_22",
+      "buildingId": "b17",
+      "date": "2025-12-06",
+      "kwh": 1032
+    },
+    {
+      "id": "u_b17_23",
+      "buildingId": "b17",
+      "date": "2025-12-07",
+      "kwh": 939
+    },
+    {
+      "id": "u_b17_24",
+      "buildingId": "b17",
+      "date": "2025-12-08",
+      "kwh": 1286
+    },
+    {
+      "id": "u_b17_25",
+      "buildingId": "b17",
+      "date": "2025-12-09",
+      "kwh": 1250
+    },
+    {
+      "id": "u_b17_26",
+      "buildingId": "b17",
+      "date": "2025-12-10",
+      "kwh": 1099
+    },
+    {
+      "id": "u_b17_27",
+      "buildingId": "b17",
+      "date": "2025-12-11",
+      "kwh": 1102
+    },
+    {
+      "id": "u_b17_28",
+      "buildingId": "b17",
+      "date": "2025-12-12",
+      "kwh": 1103
+    },
+    {
+      "id": "u_b17_29",
+      "buildingId": "b17",
+      "date": "2025-12-13",
+      "kwh": 1159
+    },
+    {
+      "id": "u_b17_30",
+      "buildingId": "b17",
+      "date": "2025-12-14",
+      "kwh": 1081
+    },
+    {
+      "id": "u_b18_1",
+      "buildingId": "b18",
+      "date": "2025-11-15",
+      "kwh": 997
+    },
+    {
+      "id": "u_b18_2",
+      "buildingId": "b18",
+      "date": "2025-11-16",
+      "kwh": 1095
+    },
+    {
+      "id": "u_b18_3",
+      "buildingId": "b18",
+      "date": "2025-11-17",
+      "kwh": 1124
+    },
+    {
+      "id": "u_b18_4",
+      "buildingId": "b18",
+      "date": "2025-11-18",
+      "kwh": 1161
+    },
+    {
+      "id": "u_b18_5",
+      "buildingId": "b18",
+      "date": "2025-11-19",
+      "kwh": 1110
+    },
+    {
+      "id": "u_b18_6",
+      "buildingId": "b18",
+      "date": "2025-11-20",
+      "kwh": 1297
+    },
+    {
+      "id": "u_b18_7",
+      "buildingId": "b18",
+      "date": "2025-11-21",
+      "kwh": 1163
+    },
+    {
+      "id": "u_b18_8",
+      "buildingId": "b18",
+      "date": "2025-11-22",
+      "kwh": 979
+    },
+    {
+      "id": "u_b18_9",
+      "buildingId": "b18",
+      "date": "2025-11-23",
+      "kwh": 1081
+    },
+    {
+      "id": "u_b18_10",
+      "buildingId": "b18",
+      "date": "2025-11-24",
+      "kwh": 1199
+    },
+    {
+      "id": "u_b18_11",
+      "buildingId": "b18",
+      "date": "2025-11-25",
+      "kwh": 1170
+    },
+    {
+      "id": "u_b18_12",
+      "buildingId": "b18",
+      "date": "2025-11-26",
+      "kwh": 1114
+    },
+    {
+      "id": "u_b18_13",
+      "buildingId": "b18",
+      "date": "2025-11-27",
+      "kwh": 1242
+    },
+    {
+      "id": "u_b18_14",
+      "buildingId": "b18",
+      "date": "2025-11-28",
+      "kwh": 1237
+    },
+    {
+      "id": "u_b18_15",
+      "buildingId": "b18",
+      "date": "2025-11-29",
+      "kwh": 1085
+    },
+    {
+      "id": "u_b18_16",
+      "buildingId": "b18",
+      "date": "2025-11-30",
+      "kwh": 1085
+    },
+    {
+      "id": "u_b18_17",
+      "buildingId": "b18",
+      "date": "2025-12-01",
+      "kwh": 1085
+    },
+    {
+      "id": "u_b18_18",
+      "buildingId": "b18",
+      "date": "2025-12-02",
+      "kwh": 1163
+    },
+    {
+      "id": "u_b18_19",
+      "buildingId": "b18",
+      "date": "2025-12-03",
+      "kwh": 1204
+    },
+    {
+      "id": "u_b18_20",
+      "buildingId": "b18",
+      "date": "2025-12-04",
+      "kwh": 1260
+    },
+    {
+      "id": "u_b18_21",
+      "buildingId": "b18",
+      "date": "2025-12-05",
+      "kwh": 1104
+    },
+    {
+      "id": "u_b18_22",
+      "buildingId": "b18",
+      "date": "2025-12-06",
+      "kwh": 1128
+    },
+    {
+      "id": "u_b18_23",
+      "buildingId": "b18",
+      "date": "2025-12-07",
+      "kwh": 1057
+    },
+    {
+      "id": "u_b18_24",
+      "buildingId": "b18",
+      "date": "2025-12-08",
+      "kwh": 1281
+    },
+    {
+      "id": "u_b18_25",
+      "buildingId": "b18",
+      "date": "2025-12-09",
+      "kwh": 1235
+    },
+    {
+      "id": "u_b18_26",
+      "buildingId": "b18",
+      "date": "2025-12-10",
+      "kwh": 1220
+    },
+    {
+      "id": "u_b18_27",
+      "buildingId": "b18",
+      "date": "2025-12-11",
+      "kwh": 1326
+    },
+    {
+      "id": "u_b18_28",
+      "buildingId": "b18",
+      "date": "2025-12-12",
+      "kwh": 1129
+    },
+    {
+      "id": "u_b18_29",
+      "buildingId": "b18",
+      "date": "2025-12-13",
+      "kwh": 901
+    },
+    {
+      "id": "u_b18_30",
+      "buildingId": "b18",
+      "date": "2025-12-14",
+      "kwh": 1090
+    },
+    {
+      "id": "u_b19_1",
+      "buildingId": "b19",
+      "date": "2025-11-15",
+      "kwh": 929
+    },
+    {
+      "id": "u_b19_2",
+      "buildingId": "b19",
+      "date": "2025-11-16",
+      "kwh": 1157
+    },
+    {
+      "id": "u_b19_3",
+      "buildingId": "b19",
+      "date": "2025-11-17",
+      "kwh": 1304
+    },
+    {
+      "id": "u_b19_4",
+      "buildingId": "b19",
+      "date": "2025-11-18",
+      "kwh": 1214
+    },
+    {
+      "id": "u_b19_5",
+      "buildingId": "b19",
+      "date": "2025-11-19",
+      "kwh": 1080
+    },
+    {
+      "id": "u_b19_6",
+      "buildingId": "b19",
+      "date": "2025-11-20",
+      "kwh": 1314
+    },
+    {
+      "id": "u_b19_7",
+      "buildingId": "b19",
+      "date": "2025-11-21",
+      "kwh": 1303
+    },
+    {
+      "id": "u_b19_8",
+      "buildingId": "b19",
+      "date": "2025-11-22",
+      "kwh": 953
+    },
+    {
+      "id": "u_b19_9",
+      "buildingId": "b19",
+      "date": "2025-11-23",
+      "kwh": 919
+    },
+    {
+      "id": "u_b19_10",
+      "buildingId": "b19",
+      "date": "2025-11-24",
+      "kwh": 1325
+    },
+    {
+      "id": "u_b19_11",
+      "buildingId": "b19",
+      "date": "2025-11-25",
+      "kwh": 1188
+    },
+    {
+      "id": "u_b19_12",
+      "buildingId": "b19",
+      "date": "2025-11-26",
+      "kwh": 1120
+    },
+    {
+      "id": "u_b19_13",
+      "buildingId": "b19",
+      "date": "2025-11-27",
+      "kwh": 1253
+    },
+    {
+      "id": "u_b19_14",
+      "buildingId": "b19",
+      "date": "2025-11-28",
+      "kwh": 1182
+    },
+    {
+      "id": "u_b19_15",
+      "buildingId": "b19",
+      "date": "2025-11-29",
+      "kwh": 988
+    },
+    {
+      "id": "u_b19_16",
+      "buildingId": "b19",
+      "date": "2025-11-30",
+      "kwh": 947
+    },
+    {
+      "id": "u_b19_17",
+      "buildingId": "b19",
+      "date": "2025-12-01",
+      "kwh": 1319
+    },
+    {
+      "id": "u_b19_18",
+      "buildingId": "b19",
+      "date": "2025-12-02",
+      "kwh": 1314
+    },
+    {
+      "id": "u_b19_19",
+      "buildingId": "b19",
+      "date": "2025-12-03",
+      "kwh": 1089
+    },
+    {
+      "id": "u_b19_20",
+      "buildingId": "b19",
+      "date": "2025-12-04",
+      "kwh": 1309
+    },
+    {
+      "id": "u_b19_21",
+      "buildingId": "b19",
+      "date": "2025-12-05",
+      "kwh": 1171
+    },
+    {
+      "id": "u_b19_22",
+      "buildingId": "b19",
+      "date": "2025-12-06",
+      "kwh": 978
+    },
+    {
+      "id": "u_b19_23",
+      "buildingId": "b19",
+      "date": "2025-12-07",
+      "kwh": 1097
+    },
+    {
+      "id": "u_b19_24",
+      "buildingId": "b19",
+      "date": "2025-12-08",
+      "kwh": 1324
+    },
+    {
+      "id": "u_b19_25",
+      "buildingId": "b19",
+      "date": "2025-12-09",
+      "kwh": 1210
+    },
+    {
+      "id": "u_b19_26",
+      "buildingId": "b19",
+      "date": "2025-12-10",
+      "kwh": 1320
+    },
+    {
+      "id": "u_b19_27",
+      "buildingId": "b19",
+      "date": "2025-12-11",
+      "kwh": 1125
+    },
+    {
+      "id": "u_b19_28",
+      "buildingId": "b19",
+      "date": "2025-12-12",
+      "kwh": 1298
+    },
+    {
+      "id": "u_b19_29",
+      "buildingId": "b19",
+      "date": "2025-12-13",
+      "kwh": 1155
+    },
+    {
+      "id": "u_b19_30",
+      "buildingId": "b19",
+      "date": "2025-12-14",
+      "kwh": 1089
+    },
+    {
+      "id": "u_b20_1",
+      "buildingId": "b20",
+      "date": "2025-11-15",
+      "kwh": 706
+    },
+    {
+      "id": "u_b20_2",
+      "buildingId": "b20",
+      "date": "2025-11-16",
+      "kwh": 856
+    },
+    {
+      "id": "u_b20_3",
+      "buildingId": "b20",
+      "date": "2025-11-17",
+      "kwh": 1012
+    },
+    {
+      "id": "u_b20_4",
+      "buildingId": "b20",
+      "date": "2025-11-18",
+      "kwh": 911
+    },
+    {
+      "id": "u_b20_5",
+      "buildingId": "b20",
+      "date": "2025-11-19",
+      "kwh": 925
+    },
+    {
+      "id": "u_b20_6",
+      "buildingId": "b20",
+      "date": "2025-11-20",
+      "kwh": 856
+    },
+    {
+      "id": "u_b20_7",
+      "buildingId": "b20",
+      "date": "2025-11-21",
+      "kwh": 804
+    },
+    {
+      "id": "u_b20_8",
+      "buildingId": "b20",
+      "date": "2025-11-22",
+      "kwh": 863
+    },
+    {
+      "id": "u_b20_9",
+      "buildingId": "b20",
+      "date": "2025-11-23",
+      "kwh": 896
+    },
+    {
+      "id": "u_b20_10",
+      "buildingId": "b20",
+      "date": "2025-11-24",
+      "kwh": 787
+    },
+    {
+      "id": "u_b20_11",
+      "buildingId": "b20",
+      "date": "2025-11-25",
+      "kwh": 971
+    },
+    {
+      "id": "u_b20_12",
+      "buildingId": "b20",
+      "date": "2025-11-26",
+      "kwh": 940
+    },
+    {
+      "id": "u_b20_13",
+      "buildingId": "b20",
+      "date": "2025-11-27",
+      "kwh": 914
+    },
+    {
+      "id": "u_b20_14",
+      "buildingId": "b20",
+      "date": "2025-11-28",
+      "kwh": 957
+    },
+    {
+      "id": "u_b20_15",
+      "buildingId": "b20",
+      "date": "2025-11-29",
+      "kwh": 681
+    },
+    {
+      "id": "u_b20_16",
+      "buildingId": "b20",
+      "date": "2025-11-30",
+      "kwh": 817
+    },
+    {
+      "id": "u_b20_17",
+      "buildingId": "b20",
+      "date": "2025-12-01",
+      "kwh": 874
+    },
+    {
+      "id": "u_b20_18",
+      "buildingId": "b20",
+      "date": "2025-12-02",
+      "kwh": 946
+    },
+    {
+      "id": "u_b20_19",
+      "buildingId": "b20",
+      "date": "2025-12-03",
+      "kwh": 824
+    },
+    {
+      "id": "u_b20_20",
+      "buildingId": "b20",
+      "date": "2025-12-04",
+      "kwh": 807
+    },
+    {
+      "id": "u_b20_21",
+      "buildingId": "b20",
+      "date": "2025-12-05",
+      "kwh": 802
+    },
+    {
+      "id": "u_b20_22",
+      "buildingId": "b20",
+      "date": "2025-12-06",
+      "kwh": 763
+    },
+    {
+      "id": "u_b20_23",
+      "buildingId": "b20",
+      "date": "2025-12-07",
+      "kwh": 682
+    },
+    {
+      "id": "u_b20_24",
+      "buildingId": "b20",
+      "date": "2025-12-08",
+      "kwh": 871
+    },
+    {
+      "id": "u_b20_25",
+      "buildingId": "b20",
+      "date": "2025-12-09",
+      "kwh": 991
+    },
+    {
+      "id": "u_b20_26",
+      "buildingId": "b20",
+      "date": "2025-12-10",
+      "kwh": 810
+    },
+    {
+      "id": "u_b20_27",
+      "buildingId": "b20",
+      "date": "2025-12-11",
+      "kwh": 946
+    },
+    {
+      "id": "u_b20_28",
+      "buildingId": "b20",
+      "date": "2025-12-12",
+      "kwh": 787
+    },
+    {
+      "id": "u_b20_29",
+      "buildingId": "b20",
+      "date": "2025-12-13",
+      "kwh": 673
+    },
+    {
+      "id": "u_b20_30",
+      "buildingId": "b20",
+      "date": "2025-12-14",
+      "kwh": 887
+    }
+  ]
+}

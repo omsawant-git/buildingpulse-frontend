@@ -39,12 +39,11 @@ export const buildings: Building[] = [
     type: 'Warehouse',
   },
   {
-  id: 'b4',
-  name: 'Downtown Library',
-  address: '77 Elm St, Cambridge, MA',
-  type: 'Office',
-},
-
+    id: 'b4',
+    name: 'Downtown Library',
+    address: '77 Elm St, Cambridge, MA',
+    type: 'Office',
+  },
 ]
 
 export const initialAlerts: Alert[] = [
@@ -78,5 +77,4 @@ export const initialAlerts: Alert[] = [
     createdAt: '2025-12-10T14:40:00Z',
     updatedAt: '2025-12-10T14:40:00Z',
   },
-  
 ]
